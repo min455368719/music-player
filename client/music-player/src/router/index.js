@@ -4,6 +4,7 @@ import One from '@/components/One'
 import Two from '@/components/Two'
 import Three from '@/components/Three'
 import Four from '@/components/Four'
+import Player from '@/components/Player'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/Four',
       name: 'Four',
       component: Four
+    },
+    {
+      path: '/Player',
+      name: 'Player',
+      component: Player
     }
   ]
 })

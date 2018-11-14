@@ -1,22 +1,24 @@
 <template>
   <div id="app">
   	<Head></Head>
-    <router-link to="/One">one</router-link>
-    <router-link to="/Two">two</router-link>
-    <router-link to="/Three">three</router-link>
-    <router-link to="/four">four</router-link>
+  	<RouterNav></RouterNav>
     <router-view/>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 //导入组件
 import Head from './components/HeadNav';
+import RouterNav from './components/RouterNav';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
   components: {
-  	Head
+  	Head,
+  	RouterNav,
+  	Footer
   }
 }
 </script>
