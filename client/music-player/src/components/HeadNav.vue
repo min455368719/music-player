@@ -1,6 +1,12 @@
 <template>
 	<div>
-		{{title}}
+		<div>
+			<img src="../assets/logo.png" />
+			<span>知了音乐</span>
+		</div>
+		<div>
+			
+		</div>
 	</div>
 </template>
 
@@ -18,7 +24,7 @@
 <style scoped>
 	div {
 		width: 100%;
-		height: 80px;
-		background-color: chocolate;
+		height: 100px;
+		background-color: #b0b0b0;
 	}
 </style>
