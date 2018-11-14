@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  	<Head></Head>
     <router-link to="/One">one</router-link>
     <router-link to="/Two">two</router-link>
     <router-link to="/Three">three</router-link>
@@ -9,8 +10,14 @@
 </template>
 
 <script>
+//导入组件
+import Head from './components/HeadNav';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+  	Head
+  }
 }
 </script>
 
@@ -21,6 +28,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 0px;
+  padding: 0;
 }
 </style>
