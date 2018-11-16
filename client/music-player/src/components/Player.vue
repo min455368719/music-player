@@ -30,20 +30,18 @@
 					</li>
 				</ul>
 				<div class="r-bom">
-					<ul>
-						<li>
-							<a href="#"><img src="../../static/img/icon1/xihuan.png" /></a>
-						</li>
-						<li>
-							<a href="#"><img src="../../static/img/icon1/shoucang.png" /></a>
-						</li> 
-						<li>
-							<a href="#"><img src="../../static/img/icon1/xiaoxi.png" /></a>
-						</li>
-						<li>
-							<a href="#"><img src="../../static/img/icon1/fenxiang.png" /></a>
-						</li>
-					</ul>
+					<div>
+						<a href="#"><img src="../../static/img/icon1/xihuan.png" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="../../static/img/icon1/shoucang.png" /></a>
+					</div> 
+					<div>
+						<a href="#"><img src="../../static/img/icon1/xiaoxi.png" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="../../static/img/icon1/fenxiang.png" /></a>
+					</div>
 				</div>
 			</div>
 		</el-container>
@@ -72,7 +70,9 @@
 
 <style scoped>
 	.biger{
-		width: 100%;
+		width: 1000px;
+		margin: 20px auto;
+		position: relative;
 		/*background-color: rgba(245,222,179,0.6);*/
 	}
 	.content{
@@ -87,7 +87,7 @@
 		width: 1000px;
 		height: 500px;
 		position: absolute;
-		left: 175px;
+		left: 0;
 		z-index: -1;
 	}
 	.blur {	
@@ -128,12 +128,12 @@
 		position: absolute;
 		font-size: 14px;
 		color: white;
-		top: 600px;
+		top: 430px;
 	}.nowTime {
-		left: 305px;
+		left: 135px;
 	}
 	.endTime {
-		left: 610px;
+		left: 430px;
 	}
 	.right {
 		width: 300px;
@@ -168,9 +168,12 @@
 	.r-bom {
 		height: 50px;
 		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		/*background-color: olive;*/
 	}
-	.r-bom ul li {
+	.r-bom div{
 		width: 24%;
 		height: 100%;
 		/*background-color: yellow;*/
