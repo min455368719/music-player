@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import One from '@/components/One'
 import Two from '@/components/Two'
-import Three from '@/components/Three'
+import Three from '@/components/musicList'
 import Four from '@/components/Four'
 import Player from '@/components/Player'
 
