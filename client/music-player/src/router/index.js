@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import One from '@/components/One'
-import Two from '@/components/Two'
-import Three from '@/components/musicList'
-import Four from '@/components/Four'
-import Player from '@/components/Player'
+import One from '@/components/musicRecommend/One'
+import Two from '@/components/ranking/Two'
+import Three from '@/components/musicList/musicList'
+import Four from '@/components/singer/Four'
+import Player from '@/components/showMusic/Player'
 
 Vue.use(Router)
 

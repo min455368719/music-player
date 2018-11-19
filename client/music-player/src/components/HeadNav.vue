@@ -7,7 +7,9 @@
 			<span>知了音乐</span>
 		</div>
 		<div class="inline search">
-			<input type="text" placeholder="搜索音乐" icon="el-icon-search"/>
+			<el-input placeholder="搜索音乐" size='small' class="input-with-select">
+    		<el-button slot="append" icon="el-icon-search"></el-button>
+  			</el-input>
 		</div>
 		<ul class="inline ul">
 			<li><a href="#">客服中心</a></li>	
@@ -16,8 +18,8 @@
 			<li class="line"></li>
 		</ul>
 		<div class="inline LR">
-			<el-button class='login'>登录</el-button>
-			<el-button>注册</el-button>
+			<el-button class='login' size='small'>登录</el-button>
+			<el-button size='small'>注册</el-button>
 		</div>
 	</div>
 </template>
@@ -58,11 +60,7 @@
 		font-weight: bold;
 	}
 	.search {
-		margin-left: 50px;
-	}
-	.search input{
-		width: 240px;
-		height: 30px;
+		margin-left: 30px;
 	}
 	.ul li{
 		display: inline-block;

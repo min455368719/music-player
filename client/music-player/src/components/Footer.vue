@@ -1,6 +1,36 @@
 <template>
 	<div>
-		
+		<ul>
+			<li><a href="#">关于知了</a></li>
+			<li class="line"></li>
+			<li><a href="#">监督举报</a></li>
+			<li class="line"></li>
+			<li><a href="#">广告服务</a></li>
+			<li class="line"></li>
+			<li><a href="#">版权指引</a></li>
+			<li class="line"></li>
+			<li><a href="#">隐私政策</a></li>
+			<li class="line"></li>
+			<li><a href="#">推广合作</a></li>
+			<li class="line"></li>
+			<li><a href="#">知了音乐人</a></li>
+			<li class="line"></li>
+			<li><a href="#">客服中心</a></li>
+			<li class="line"></li>
+			<li><a href="#">用户体验计划</a></li>
+		</ul>
+		<div>
+			<p>
+				我们致力于推动网络正版音乐发展，相关版权合作请联系
+				<a href="#">zhilioa@163.com</a>
+			</p>
+			<p>
+				不良信息举报及客服邮箱:<a href="#">zhilioa@163.com</a>
+			</p>
+			<p>
+				不良信息举报及客服邮箱:<a href="#">zhilioa@163.com</a>
+			</p>
+		</div>
 	</div>
 </template>
 

@@ -110,83 +110,76 @@
 		padding-top: 10px;
 	}
   
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-  
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
-  }
-  .img {
-  	width: 100%;
-  	height: 100%;
-  }
-  
-  .main1 {
-  	width: 1000px;
-  	margin: 20px auto;
-  }
-  .main1_left{
-  	width: 750px;
-  	background-color: white;
-  	border-left: 1px solid darkgray;
-  }
-  .main1_right{
-  	width: 250px;
-  	background-color: aliceblue;
-  	border-left: 1px solid darkgray;
-  	border-right: 1px solid darkgray;
-  }
-  .left_top{
-  	/*background-color: darkcyan;*/
-  	width: 702px;
-  	height: 30px;
-  	margin-top: 20px;
-  	margin-left: 24px;
-  	border-bottom: 2px solid #FF7428;
-  }
-  .inline,li{
-  	display: inline-block;
-  }
-  .circle {
-  	width: 8px;
-	height: 8px;
-	border: 5px solid #FF7428;
-	border-radius: 50%;
-  }
-  .hot {
-  	font-size: 18px;
-  	font-weight: 600;
-  	margin-left: 5px;
-  	margin-right: 20px;
-  	margin-top: 0;
-  	color: gray;
-  }
-  .line{
-  	width: 1px;
-  	height: 12px;
-  	background-color: gray;
-  }
-  li{
-  	color: gray;
-  	font-size: 14px;
-  	margin: 0 5px;
-  }
-  .left_mid{
-
-  }
-  .show {
-  	width: 120px;
-  	height: 170px;
-  	text-align: left;
-  	float: left;
-  	margin: 10px 0 0 24px;
-  }
-  .show img{
-  	width: 120px;
-  	height: 120px;
-  }
-  .show span {
-  	font-size: 14px;
-  }
+	.img {
+		width: 100%;
+	  	height: 100%;
+	}
+	  
+	.main1 {
+	  	width: 1000px;
+	  	margin: 20px auto;
+	}
+	.main1_left{
+	  	width: 750px;
+	  	background-color: white;
+	  	border-left: 1px solid darkgray;
+	}
+	.main1_right{
+	  	width: 250px;
+	  	background-color: aliceblue;
+	  	border-left: 1px solid darkgray;
+	  	border-right: 1px solid darkgray;
+	}
+	.left_top{
+	  	/*background-color: darkcyan;*/
+	  	width: 702px;
+	  	height: 30px;
+	  	margin-top: 20px;
+	  	margin-left: 24px;
+	  	border-bottom: 2px solid #FF7428;
+	}
+	.inline,li{
+	  	display: inline-block;
+	}
+	.circle {
+	  	width: 8px;
+		height: 8px;
+		border: 5px solid #FF7428;
+		border-radius: 50%;
+	}
+	.hot {
+	  	font-size: 18px;
+	  	font-weight: 600;
+	  	margin-left: 5px;
+	  	margin-right: 20px;
+	  	margin-top: 0;
+	  	color: gray;
+	}
+	.line{
+	  	width: 1px;
+	  	height: 12px;
+	  	background-color: gray;
+	}
+	li{
+	  	color: gray;
+	  	font-size: 14px;
+	  	margin: 0 5px;
+	}
+	.left_mid{
+	
+	}
+	.show {
+	  	width: 120px;
+	  	height: 170px;
+	  	text-align: left;
+	  	float: left;
+	  	margin: 10px 0 0 24px;
+	}
+	.show img{
+	  	width: 120px;
+	  	height: 120px;
+	}
+	.show span {
+	  	font-size: 14px;
+	}
 </style>
