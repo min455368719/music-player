@@ -5,6 +5,7 @@ import Two from '@/components/ranking/Two'
 import Three from '@/components/musicList/musicList'
 import Four from '@/components/singer/Four'
 import Player from '@/components/showMusic/Player'
+import Songs from '@/components/showList/Songs'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/Player',
       name: 'Player',
       component: Player
+    },
+    {
+      path: '/Songs',
+      name: 'Songs',
+      component: Songs
     }
   ]
 })

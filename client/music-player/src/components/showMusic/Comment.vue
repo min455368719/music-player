@@ -61,7 +61,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	.comment {
 		width: 100%;
 		background-color: rgba(245,222,179,0.6);

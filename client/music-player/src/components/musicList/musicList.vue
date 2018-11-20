@@ -44,11 +44,7 @@
 		'作者',
 	]
 	export default {
-		name: 'Three',
-		data: {
-
-		}
-		
+		name: 'Three'
 	}
 </script>
 
