@@ -56,7 +56,11 @@
 			<!-- 飙升榜、原创帮、新歌榜 -->
 			<div class="hang2">
 				<div class="biaoshen">
+<<<<<<< HEAD
 					<div><img src="../../../static/img/Two/biaoshen.jpg" alt=""></div>
+=======
+					<div><img src="http://img4.imgtn.bdimg.com/it/u=987332313,955147177&fm=26&gp=0.jpg" alt=""></div>
+>>>>>>> ccc4f881f527fa6f59a3e90e93c95ea368056319
 					<ul class="one">
 						<li><span>1</span><span>513%</span><span>写给黄淮</span><a href="">解忧邵帅</a></li>
 						<li><span>2</span><span>354%</span><span>贝贝</span><a href="">李荣浩</a></li>
