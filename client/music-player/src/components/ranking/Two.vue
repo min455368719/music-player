@@ -56,7 +56,7 @@
 			<!-- 飙升榜、原创帮、新歌榜 -->
 			<div class="hang2">
 				<div class="biaoshen">
-					<div><img src="http://img4.imgtn.bdimg.com/it/u=1200630356,3770668614&fm=26&gp=0.jpg" alt=""></div>
+					<div><img src="../../../static/img/Two/biaoshen.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span>513%</span><span>写给黄淮</span><a href="">解忧邵帅</a></li>
 						<li><span>2</span><span>354%</span><span>贝贝</span><a href="">李荣浩</a></li>
@@ -70,7 +70,7 @@
 					</ul>
 				</div>
 				<div class="xinge">
-					<div><img src="http://img4.imgtn.bdimg.com/it/u=1275562619,3164085747&fm=11&gp=0.jpg" alt=""></div>
+					<div><img src="../../../static/img/Two/xingejpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span>-</span><span>I.W.A.B.N</span><a href="">Lil小鬼</a></li>
 						<li><span>2</span><span>-</span><span>POP/START</span><a href="">Madison</a></li>
@@ -84,7 +84,7 @@
 					</ul>
 				</div>
 				<div class="yuanchuan">
-					<div><img src="http://img2.imgtn.bdimg.com/it/u=1992562574,1861731198&fm=15&gp=0.jpg" alt=""></div>
+					<div><img src="../../../static/img/Two/yuanchuan.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span style="color:green">New</span><span>鹦鹉</span><a href="">孟凡明</a></li>
 						<li><span>2</span><span style="color:green">New</span><span>你还在忧愁什么</span><a href="">花粥</a></li>
@@ -98,7 +98,7 @@
 					</ul>
 				</div>
 				<div class="rege">
-					<div><img src="http://img2.imgtn.bdimg.com/it/u=1976977465,2614689071&fm=26&gp=0.jpg" alt=""></div>
+					<div><img src="../../../static/img/Two/rege.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span>-</span><span>可不可以</span><a href="">张子豪</a></li>
 						<li><span>2</span><span style="color:red">↑</span><span>盗将行</span><a href="">花粥</a></li>
@@ -112,7 +112,7 @@
 					</ul>
 				</div>
 				<div class="geshou">
-					<div><img src="http://img1.imgtn.bdimg.com/it/u=2678910612,3896613209&fm=26&gp=0.jpg" alt=""></div>
+					<div><img src="../../../static/img/Two/geshou.jpg" alt=""></div>
 					<ul class="two">
 						<li><a href="">1</a><a href="">-</a><a href="">花粥</a></li>
 						<li><a href="">2</a><a href="" style="color:red">↑</a><a href="">薛之谦</a></li>
