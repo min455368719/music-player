@@ -19,8 +19,6 @@
 						</div>
 						<div class="lr-3">
 							<el-button-group>
-								<!--<el-button size="small" type="primary">播放</el-button>
-								<el-button size="small" type="primary"><i class="el-icon-plus el-icon--right"></i></el-button>-->
 								<el-button size="small"><img src="../../../static/img/icon1/shoucangjia.png" /><span>(133)</span></el-button>
 								<el-button size="small"><img src="../../../static/img/icon1/zhuanfa.png" /><span>(36)</span></el-button>
 								<el-button size="small"><img src="../../../static/img/icon1/xiazai_1.png" /></el-button>
@@ -43,13 +41,9 @@
 						<div class="lr-6"><a href="#">展开</a><i class="el-icon-arrow-down"></i></div>
 					</div>
 					<div class="clear"></div>
+					
+					<MusicName></MusicName>
 				</div>
-				<div>
-					<div>歌曲列表</div>
-					<div>共30首歌</div>
-					<div>播放：<span>1234</span>次</div>
-				</div>	
-				
 			</div>
 			<div class='main1_right'>
 				<div class="r-1">喜欢这首歌的人</div>
@@ -83,9 +77,14 @@
 </template>
 
 <script>
+	import MusicName from './MusicName'
+	
 	export default {
-		name: 'Songs'
-	}
+		name: 'Songs',
+		components:{
+			MusicName
+		}
+    }
 </script>
 
 <style scoped>

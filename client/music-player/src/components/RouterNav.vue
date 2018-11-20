@@ -2,7 +2,7 @@
 	<div class="bg">
 		<div class="left">
 			<router-link to="/One" active-class="first">推荐</router-link>
-		    <router-link to="/Songs">排行榜</router-link>
+		    <router-link to="/Two">排行榜</router-link>
 		    <router-link to="/Three">歌单</router-link>
 		    <router-link to="/Four">歌手</router-link>
 		</div>
