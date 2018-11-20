@@ -6,7 +6,7 @@ import Three from '@/components/musicList/musicList'
 import Four from '@/components/singer/Four'
 import Player from '@/components/showMusic/Player'
 import Songs from '@/components/showList/Songs'
-
+import login from '@/components/login/login'
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +40,11 @@ export default new Router({
       path: '/Songs',
       name: 'Songs',
       component: Songs
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: login
     }
   ]
 })

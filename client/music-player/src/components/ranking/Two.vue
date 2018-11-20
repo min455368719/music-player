@@ -56,7 +56,7 @@
 			<!-- 飙升榜、原创帮、新歌榜 -->
 			<div class="hang2">
 				<div class="biaoshen">
-					<div><img src="http://img4.imgtn.bdimg.com/it/u=1200630356,3770668614&fm=26&gp=0.jpg" alt=""></div>
+					<div><img src="http://img4.imgtn.bdimg.com/it/u=987332313,955147177&fm=26&gp=0.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span>513%</span><span>写给黄淮</span><a href="">解忧邵帅</a></li>
 						<li><span>2</span><span>354%</span><span>贝贝</span><a href="">李荣浩</a></li>
