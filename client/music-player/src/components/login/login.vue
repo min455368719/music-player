@@ -7,7 +7,7 @@
 			<div class="tuijian">
 				<div class="tuijian1">推荐</div>
 				<div class="tuijian2">
-					<a><img src="../../../static/img/icon2x/yinle_1.png" alt=""><span>发现音乐</span></a>
+                    <a href=""><img src="../../../static/img/icon2x/yinle_1.png" alt=""><span>发现音乐</span></a>
 					<a><img src="../../../static/img/icon2x/fashegongshuai.png" alt=""><span>私人FM</span></a>
 					<a><img src="../../../static/img/icon2x/shipin.png" alt=""><span>视频</span></a>
 					<a><img src="../../../static/img/icon2x/qunzu.png" alt=""><span>朋友</span></a>

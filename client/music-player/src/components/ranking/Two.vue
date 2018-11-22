@@ -2,7 +2,6 @@
 	<div class="whole">
 		<!-- 左侧用户信息显示模块 -->
 		<div class="left">
-
 			<div class="tuijian">
 				<div class="tuijian1">推荐</div>
 				<div class="tuijian2">
@@ -32,7 +31,6 @@
 					<p><img src="../../../static/img/icon2x/yinle.png" alt=""><span>欧美风</span></p>
 				</div>
 			</div>
-
 		</div>
 		<div class="bofangge">
 			<!-- <audio src="http://music.163.com/song/media/outer/url?id=1311319058.mp3"></audio> -->
@@ -52,11 +50,11 @@
 			<div class="guangfangbang">
 				<span>官方榜</span>
 			</div>
-			<hr style="width: 90%;color: #E1E1E2">
+			<hr>
 			<!-- 飙升榜、原创帮、新歌榜 -->
 			<div class="hang2">
-				<div class="biaoshen">
-					<div><img src="http://img4.imgtn.bdimg.com/it/u=987332313,955147177&fm=26&gp=0.jpg" alt="" /></div>
+				<div class="bang biaoshen">
+					<div><img src="../../../static/img/Two/biaoshen.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span>513%</span><span>写给黄淮</span><a href="">解忧邵帅</a></li>
 						<li><span>2</span><span>354%</span><span>贝贝</span><a href="">李荣浩</a></li>
@@ -69,8 +67,8 @@
 						<li><a href="">查看全部>>></a></li>
 					</ul>
 				</div>
-				<div class="xinge">
-					<div><img src="http://img4.imgtn.bdimg.com/it/u=1275562619,3164085747&fm=11&gp=0.jpg" alt="" /></div>
+				<div class="bang xinge">
+					<div><img src="../../../static/img/Two/xinge.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span>-</span><span>I.W.A.B.N</span><a href="">Lil小鬼</a></li>
 						<li><span>2</span><span>-</span><span>POP/START</span><a href="">Madison</a></li>
@@ -83,8 +81,8 @@
 						<li><a href="">查看全部>>></a></li>
 					</ul>
 				</div>
-				<div class="yuanchuan">
-					<div><img src="http://img2.imgtn.bdimg.com/it/u=1992562574,1861731198&fm=15&gp=0.jpg" alt="" /></div>
+				<div class="bang yuanchuan">
+					<div><img src="../../../static/img/Two/yuanchuan.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span style="color:green">New</span><span>鹦鹉</span><a href="">孟凡明</a></li>
 						<li><span>2</span><span style="color:green">New</span><span>你还在忧愁什么</span><a href="">花粥</a></li>
@@ -97,8 +95,8 @@
 						<li><a href="">查看全部>>></a></li>
 					</ul>
 				</div>
-				<div class="rege">
-					<div><img src="http://img2.imgtn.bdimg.com/it/u=1976977465,2614689071&fm=26&gp=0.jpg" alt="" /></div>
+				<div class="bang rege">
+					<div><img src="../../../static/img/Two/rege.jpg" alt=""></div>
 					<ul class="one">
 						<li><span>1</span><span>-</span><span>可不可以</span><a href="">张子豪</a></li>
 						<li><span>2</span><span style="color:red">↑</span><span>盗将行</span><a href="">花粥</a></li>
@@ -111,8 +109,8 @@
 						<li><a href="">查看全部>>></a></li>
 					</ul>
 				</div>
-				<div class="geshou">
-					<div><img src="http://img1.imgtn.bdimg.com/it/u=2678910612,3896613209&fm=26&gp=0.jpg" alt="" /></div>
+				<div class="bang geshou">
+					<div><img src="../../../static/img/Two/geshou.jpg" alt=""></div>
 					<ul class="two">
 						<li><a href="">1</a><a href="">-</a><a href="">花粥</a></li>
 						<li><a href="">2</a><a href="" style="color:red">↑</a><a href="">薛之谦</a></li>
@@ -142,14 +140,15 @@
 
 <style scoped>
 	.whole {
-		width: 100%;
+		width: 1000px;
 		height: 870px;
+		margin: 0 auto;
 		display: flex;
 	}
 	/* 左侧用户显示模块 */
 	.left {
-		width: 260px;
-		height: 66%;
+		width: 200px;
+		background-color: #F5F5F5;
 		font-size: 14px;
 	}
 	/* 推荐 */
@@ -249,24 +248,27 @@
 		width: 200px;
 		position: absolute;
 		top: 865px;
-		left: 3px
+		left: 175px
 	}
 	/* 右侧所有排行显示 */
 	.right {
-		width: 100%;
-		height: 100%;
+		width: 750px;
+		margin-left: 25px;
+		/*background-color: orangered;*/
 	}
 	/* 第一行官方榜样式 */
 	.guangfangbang {
-		width: 95%;
+		width: 100%;
 		height: 40px;
+		line-height: 48px;
 		margin: 0 auto;
 		position: relative;
+		border-bottom: 3px solid #FF7428;
 	}
 	.guangfangbang span {
-		position: absolute;
-		left: 26px;
-		bottom: 1px
+		font-size: 20px;
+		font-weight: 600;
+		color: #FF7428;
 	}
 	hr:nth-child(1) {
 		width: 95%;
@@ -274,11 +276,14 @@
 	/* 飙升榜、新歌榜、原创榜 */
 	.hang2 {
 		margin: 0 auto;
-		width: 95%;
+		width: 100%;
 		height: 385px;
-		display: flex;
-		flex-wrap: wrap;
 		padding-right: 30px
+	}
+	.bang {
+		float: left;
+		width: 230px;
+		margin: 10px;
 	}
 	/* 公共部分（只是飙升榜、新歌榜、原创榜） */
 	.hang2 ul {
@@ -325,62 +330,53 @@
 		margin-top: -4px
 	}
 	/* 飙升榜 */
-	.biaoshen {
-		width: 322px;
-		height: 100%;
-		margin-left: 40px;
-		position: relative;
-	}
+	/*.biaoshen {
+		width: 230px;
+		margin: 5px;
+	}*/
 	.biaoshen a {
 		position: absolute;
-		right: 10px;
+		right: 709px;
 	}
 	/* 新歌榜 */
-	.xinge {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
-	}
+	/*.xinge {
+		width: 230px;
+		margin: 10px;
+	}*/
 	.xinge a {
 		position: absolute;
-		right: 10px;
+		right: 460px;
 	}
 	/* 原创榜 */
-	.yuanchuan {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
-	}
+	/*.yuanchuan {
+		width: 230px;
+		margin: 10px;
+	}*/
 	.yuanchuan a {
 		position: absolute;
-		right: 10px;
+		right: 208px;
 	}
 	/* 热歌榜 */
-	.rege {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
+	/*.rege {
+		width: 230px;
+		margin: 10px;
 		top: 25px;
 		left: 10px
-	}
+	}*/
 	.rege a {
 		position: absolute;
-		right: 10px;
+		right: 709px;
 	}
 	/* 歌手榜 */
-	.geshou {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
+	/*.geshou {
+		width: 230px;
+		margin: 10px;
 		top: 25px;
 		left: 10px
-	}
+	}*/
 	.geshou a {
 		text-decoration: none;
+		right: 460px;
 	}
 	.geshou a:nth-child(1) {
 		margin-left: 10px;
