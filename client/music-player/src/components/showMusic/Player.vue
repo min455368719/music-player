@@ -24,13 +24,7 @@
 					<span class="p1">{{ musicMsg.songName }}</span>
 					<span class="p2">{{ musicMsg.singerName }}</span>
 				</div>
-				<ul class="r-mid">
-					<!--<li v-for="item in musicMsg.lyrics" :key='item'>
-						{{ item }}
-					</li>-->
-					<!--<li>{{ g }}</li>-->
-					<!--<div class="tc font30 mb15">{{g}}</div>-->
-				</ul>
+				<ul class="r-mid"></ul>
 				<div class="r-bom">
 					<div>
 						<a href="#"><img src="../../../static/img/icon1/xihuan.png" /></a>

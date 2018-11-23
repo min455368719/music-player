@@ -17,95 +17,12 @@
 				<!-- 歌单 -->
 				<div class="list">
 					<div class="list-left">
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
+						<div class="list-box" v-for="item in list" :key="item.f_id">
+							<img :src="item.f_cover" alt="加载失败">
+							<router-link :to="'/Three/'+item.f_id">{{ item.f_name }}</router-link>
+							<span>{{ item.f_publisher }}</span>
 						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						<div class="list-box">
-							<img src="https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200" alt="加载失败">
-							<p><a href="#">歌单信息</a></p>
-							<p><a href="#">作者</a></p>
-						</div>
-						
 					</div>
-					<!--<div class="clear"></div>-->
 				</div>
 			</div>
 			<div class='main1_right'>
@@ -142,19 +59,30 @@
 </template>
 
 <script>
-	var imgUrl = [
-		"https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200",
 
-	]
-	var musicInfor = [
-		'歌单信息',
-
-	]
-	var author = [
-		'作者',
-	]
+	var imgUrl = ["https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200"];
+	var musicInfor = ['歌单信息'];
+	var author = ['作者'];
 	export default {
-		name: 'Three'
+		name: 'Three',
+		data() {
+			return{
+				list:[]
+			}
+		},
+		mounted() {
+			let _this=this;
+			//发起ajax请求 Vue.prototype.$http = Axios
+			_this.$http
+			  .get("/musicForm")
+			  .then(function(res){
+			  	console.log(res);
+			  	_this.list = res.data;
+			  })
+			  .catch(function(err){
+			  	console.log(err);
+			  });
+		}
 	}
 </script>
 
@@ -166,10 +94,6 @@
 	.box {
 		width: 100%;
 		background-color: rgba(245,222,179,0.6);
-		/*margin-top: -20px;*/
-		/*position: relative;*/
-		/*left: 0px;
-		top: 0px;*/
 	}
 	
 	#musicList {
@@ -195,12 +119,10 @@
 	.title .left {
 		float: left;
 		margin-top: 15px;
-		/* display: flex; */
 	}
 	
 	.title .right {
 		float: right;
-		/*display: flex;*/
 		margin-top: 15px;
 		margin-right: 15px;
 	}
@@ -229,21 +151,15 @@
 	.right button {
 		cursor: pointer;
 	}
-	
 	.right .active {
 		background-color: #ff0000;
 		border: 0px;
 		outline: none;
 	}
-	
 	.list {
 		width: 100%;
-		/*height: 400px;*/
-		/*height: auto;*/
-		/*background-color: aqua;*/
 		margin-top: 30px;
 	}
-	
 	.list-left {
 		width: 750px;
 		/*height: 100%;*/
@@ -263,25 +179,24 @@
 		width: 140px;
 		height: 140px;
 	}
-	
-	a {
+	.list-box a {
 		text-decoration: none;
-	}
-	
-	.list-box p {
-		line-height: 6px;
+		color: #FF7428;
+		display: block;
+		width: 140px;
+		/*line-height: 20px;*/
+		margin-bottom: 5px;
 		font-size: 14px;
-		text-align: center;
+		text-overflow: ellipsis;
+		overflow: hidden;
+        white-space: nowrap;
 	}
 	
-	.list-box p:last-child {
+	span{
+		margin-top: 5px;
 		font-size: 12px;
+		color: gray;
 	}
-	/*.list-right{
-		width: 250px;
-		height: 100%;
-		float: right;
-	}*/
 	
 	.main1_right {
 		float: right;

@@ -37,7 +37,7 @@ export default new Router({
       component: Player
     },
     {
-      path: '/Songs',
+      path: '/Three/:id',
       name: 'Songs',
       component: Songs
     },

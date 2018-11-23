@@ -5,37 +5,37 @@
 				<div class="left">
 					<div class="clear"></div>
 					<div class="ll">
-						<img src="http://p4.music.126.net/HIUy568wk914exFZai5GXA==/109951163554890901.jpg?param=200y200"  />
+						<img  :src=" list[0].f_cover "  alt=""/>
 					</div>
 					<div class="lr">
 						<div class="lr-1">
 							<img src="../../../static/img/icon1/gd.png" />
-							<span>努力生活，想要的终会到来</span>
+							<span>{{ list[0].f_name }}</span>
 						</div>
 						<div class="lr-2">
 							<img src="http://p1.music.126.net/JVWb-Ist5KowjAAa7GpHqA==/109951163530949475.jpg?param=40y40" />
-							<span>音乐天才</span>
-							<span>2018-11-10创建</span>
+							<span>{{ list[0].f_publisher }}</span>
+							<span>{{ list[0].release_time }}创建</span>
 						</div>
 						<div class="lr-3">
 							<el-button-group>
-								<el-button size="small"><img src="../../../static/img/icon1/shoucangjia.png" /><span>(133)</span></el-button>
-								<el-button size="small"><img src="../../../static/img/icon1/zhuanfa.png" /><span>(36)</span></el-button>
+								<el-button size="small"><img src="../../../static/img/icon1/shoucangjia.png" /><span>({{ list[0].f_collect_num }})</span></el-button>
+								<el-button size="small"><img src="../../../static/img/icon1/zhuanfa.png" /><span>({{ list[0].f_forward_num }})</span></el-button>
 								<el-button size="small"><img src="../../../static/img/icon1/xiazai_1.png" /></el-button>
-								<el-button size="small"><img src="../../../static/img/icon1/pinglun.png" /><span>(966)</span></el-button>
+								<el-button size="small"><img src="../../../static/img/icon1/pinglun.png" /><span>({{ list[0].f_comment_num }})</span></el-button>
 							</el-button-group>
 						</div>
 						
 						<div class="lr-4">
 							<div>标签：</div>
-							<div>华语</div>
-							<div>流行</div>
-							<div>民谣</div>
+							<div>{{ list[0].f_language }}</div>
+							<div>{{ list[0].f_style }}</div>
+							<div>{{ list[0].mood }}</div>
 							
 						</div>
 						<div class="clear"></div>
 						<div class="lr-5">
-							<span>介绍：那些看上去光鲜的人背后一定经历过万千烦恼，没有谁的成功都是一蹴而就的，你受的委屈，摔的伤痕，背的冷眼，别人都有过，他们身上有光，是因为扛下了黑暗。生活给了一个人多少磨难，日后必会还给他多.少幸运，为梦想颠簸的人有很多，不差你一个，但如果坚持到最后，你就是唯一 。</span>
+							<span>{{ list[0].f_describe }}</span>
 						</div>
 						
 						<div class="lr-6"><a href="#">展开</a><i class="el-icon-arrow-down"></i></div>
@@ -81,8 +81,33 @@
 	
 	export default {
 		name: 'Songs',
+		data(){
+			return {
+				list:[{}]
+			}
+		},
 		components:{
-			MusicName
+			MusicName:MusicName
+		},
+		mounted() {
+			let _this = this;
+//	    	console.log(_this.$route.query);  
+//	    	console.log(_this.$route.params); 
+	    	_this.getFormInfo(_this.$route.params.id);	
+		},
+		methods: {
+			getFormInfo(){
+				let _this = this;
+				_this.$http
+			  		.get("/getForm",{params: {id: _this.$route.params.id }})
+			  		.then(function(res){
+			  			console.log(res);
+			  		_this.list = res.data;
+			    	})
+			  		.catch(function(err){
+					  	console.log(err);
+					});
+			}
 		}
     }
 </script>

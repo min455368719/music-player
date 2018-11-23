@@ -18,7 +18,7 @@
 			<li class="line"></li>
 		</ul>
 		<div class="inline LR">
-			<el-button class='login' size='small'>登录</el-button>
+			<el-button class='login' size='small' href="/login"><router-link to="/login">登录</router-link></el-button>
 			<el-button size='small'>注册</el-button>
 		</div>
 	</div>
