@@ -8,6 +8,7 @@ import Player from '@/components/showMusic/Player'
 import Songs from '@/components/showList/Songs'
 import login from '@/components/login/login'
 import signUp from '@/components/login/signUp'
+import home from '@/components/home/home'
 Vue.use(Router)
 
 export default new Router({
@@ -51,6 +52,11 @@ export default new Router({
       path: '/signUp',
       name: 'signUp',
       component: signUp
-    }
+    },
+		{
+			path: '/home',
+			name: 'home',
+			component: home
+		}
   ]
 })

@@ -4,7 +4,7 @@
 			<router-link to="/One" active-class="first">推荐</router-link>
 		    <router-link to="/Two">排行榜</router-link>
 		    <router-link to="/login">歌单</router-link>
-		    <router-link to="/signUp">歌手</router-link>
+		    <router-link to="/home">歌手</router-link>
 
 		</div>
 		<ul>
