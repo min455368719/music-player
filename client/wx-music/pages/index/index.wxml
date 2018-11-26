@@ -1,0 +1,83 @@
+<!-- 整个index页分为五排模块，分别为第一排的推荐和歌手、第二排的排行、第三排的流行、第四排的摇滚、第五排的搜索 -->
+<view class='whole'>
+<!-- 第一排的推荐和歌手 -->
+<view class='frist'>
+<!-- 推荐 -->
+<view class='frist1'>
+<image src='http://img3.imgtn.bdimg.com/it/u=97394329,766673468&fm=11&gp=0.jpg'></image>
+<text class='txt1'>2018.11</text>
+<text class='txt2'>23</text>
+<text class='txt3'>今日推荐</text>
+</view>
+<!-- 歌手 -->
+<view class='frist2'>
+<image src='http://img3.imgtn.bdimg.com/it/u=1977632206,2721037305&fm=26&gp=0.jpg'></image>
+<text class='txt1'>周杰伦</text>
+<text class='txt3'>歌手</text></view>
+</view>
+<!-- 第一排的的推荐和歌手完 -->
+<!-- <view class='bottom'> -->
+<!-- 第二排排行榜 -->
+<view class='second'>
+<view class='second1'>
+<image src='http://img3.imgtn.bdimg.com/it/u=995874740,3269130931&fm=26&gp=0.jpg'></image>
+<image src='http://img3.imgtn.bdimg.com/it/u=1048179523,78003266&fm=26&gp=0.jpg'></image>
+<image src='http://img0.imgtn.bdimg.com/it/u=2931631352,2090110316&fm=26&gp=0.jpg'></image>
+</view>
+<view class='second2'><text>排行</text></view>
+<view class='second3'><text>32560人关注</text></view>
+</view>
+<!-- 第二排排行榜完 -->
+<!-- 第三排流行 -->
+<view class='three'>
+<view class='three1'>
+<image src='http://img3.imgtn.bdimg.com/it/u=1990626016,2869526823&fm=26&gp=0.jpg'></image>
+<image src='http://img2.imgtn.bdimg.com/it/u=2427142705,627312253&fm=26&gp=0.jpg'></image>
+<image src='http://img5.imgtn.bdimg.com/it/u=701271603,3029254004&fm=26&gp=0.jpg'></image>
+</view>
+<view class='three2'><text>流行</text></view>
+<view class='three3'><text>965230人关注</text></view>
+</view>
+<!-- 第三排流行完 -->
+<!-- 第四排摇滚 -->
+<view class='four'>
+<view class='four1'>
+<image src='http://img0.imgtn.bdimg.com/it/u=3619838778,3635437972&fm=26&gp=0.jpg'></image>
+<image src='http://img4.imgtn.bdimg.com/it/u=4101404142,3036343052&fm=200&gp=0.jpg'></image>
+<image src='http://img4.imgtn.bdimg.com/it/u=9149097,4176719467&fm=26&gp=0.jpg'></image>
+</view>
+<view class='four2'><text>摇滚</text></view>
+<view class='four3'><text>56324人关注</text></view>
+</view>
+<!-- 第四排摇滚完 -->
+<!-- 第五排民谣 -->
+<view class='five'>
+<view class='five1'>
+<image src='http://img2.imgtn.bdimg.com/it/u=2405993236,842930674&fm=26&gp=0.jpg'></image>
+<image src='http://img1.imgtn.bdimg.com/it/u=1355930941,2267719386&fm=26&gp=0.jpg'></image>
+<image src='http://img1.imgtn.bdimg.com/it/u=512514886,37892577&fm=26&gp=0.jpg'></image>
+</view>
+<view class='five2'><text>民谣</text></view>
+<view class='five3'><text>4563271人关注</text></view>
+</view>
+<!-- 第五排民谣完 -->
+<!-- 底部样式 -->
+<view class='foot'>
+<view class='foot1'><text>没有喜欢的？</text></view>
+<view class='foot2'><text>试试手气</text></view>
+<view class='foot3'><text>由第五组提供技术支持</text></view>
+</view>
+<view class='footer'>
+<view class='footer1'>
+<image src='../utils/imgs/zhuye/yinle.png'></image>
+<text>音乐站</text>
+</view>
+<view class='footer2'>
+<image src=''></image>
+<text>我的</text>
+</view>
+</view>
+<!-- 底部样式完 -->
+</view>
+
+<!-- </view> -->

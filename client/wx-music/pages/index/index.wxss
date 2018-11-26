@@ -1,0 +1,201 @@
+/* 公共样式 */
+text{
+  font-size: 28rpx;
+}
+/* 推荐和歌手的样式 */
+.frist{
+  width:95%;
+  height: 395rpx;
+  /* background-color: pink; */
+  display: flex;
+  margin: 0 auto;
+  /* flex-wrap:wrap;  */
+  border-bottom: 2px solid #F6F8F8;
+  padding-top: 40rpx;
+}
+/* 推荐和歌手公共样式 */
+.frist view{
+width: 49%;
+  height: 320rpx;
+  position: relative;
+}
+.frist image{
+   width: 100%;
+  height: 320rpx;
+}
+.txt1{
+  position: absolute;
+  top: 155rpx;
+  left: 131rpx;
+  color: white;
+  font-size: 32rpx;
+}
+.txt2{
+position: absolute;
+  top: 200rpx;
+  left: 160rpx;
+  color: white;
+  font-size: 38rpx;
+}
+.txt3{
+  position: absolute;
+  top: 335rpx;
+  left: 0rpx;
+}
+/* 歌手margin定位 */
+.frist2{
+margin-left: 20rpx;
+}
+
+/* 第二排排行榜样式 */
+.second{
+ width:95%;
+  height: 355rpx;
+  border: 1px solid #F6F8F8;
+  margin-top: 30rpx;
+  margin-left: 18rpx;
+}
+.second1{
+  width: 100%;
+  height: 240rpx;
+  display: flex;
+}
+.second1 image{
+  width: 34%;
+  height: 240rpx;
+  /* margin-right: 20rpx; */
+}
+.second2 text{
+  margin-left: 325rpx;
+}
+.second3 text{
+  margin-left: 282rpx;
+  color: #9988AA;
+}
+/* 第二排排行榜样式完 */
+/* 第三排流行样式 */
+.three{
+ width:95%;
+  height: 355rpx;
+  border: 1px solid #F6F8F8;
+   margin-top: 30rpx;
+  margin-left: 18rpx;
+}
+.three1{
+  width: 100%;
+  height: 240rpx;
+  display: flex;
+}
+.three1 image{
+  width: 34%;
+  height: 240rpx;
+  /* margin-right: 20rpx; */
+}
+.three2 text{
+  margin-left: 325rpx;
+}
+.three3 text{
+  margin-left: 282rpx;
+  color: #9988AA;
+}
+/* 第三排流行样式完 */
+/* 第四排摇滚样式 */
+.four{
+ width:95%;
+  height: 355rpx;
+  border: 1px solid #F6F8F8;
+  margin-top: 30rpx;
+  margin-left: 18rpx;
+}
+.four1{
+  width: 100%;
+  height: 240rpx;
+  display: flex;
+}
+.four1 image{
+  width: 34%;
+  height: 240rpx;
+  /* margin-right: 20rpx; */
+}
+.four2 text{
+  margin-left: 325rpx;
+}
+.four3 text{
+  margin-left: 282rpx;
+  color: #9988AA;
+}
+/* 第四排摇滚样式完 */
+/* 第五排民谣样式 */
+.five{
+ width:95%;
+  height: 355rpx;
+  border: 1px solid #F6F8F8;
+   margin-top: 30rpx;
+  margin-left: 18rpx;
+}
+.five1{
+  width: 100%;
+  height: 240rpx;
+  display: flex;
+}
+.five1 image{
+  width: 34%;
+  height: 240rpx;
+}
+.five2 text{
+  margin-left: 325rpx;
+}
+.five3 text{
+  margin-left: 282rpx;
+  color: #9988AA;
+}
+/* 第五排民谣样式完 */
+/* 底部样式 */
+.foot{
+  width: 100%;
+  height: 300rpx;
+}
+.foot1 {
+  margin-left: 313rpx;
+  margin-top: 28rpx;
+}
+.foot2 {
+  margin-left: 319rpx;
+  margin-top: 0rpx;
+  color: greenyellow;
+}
+.foot3 {
+  margin-left: 255rpx;
+  margin-top: 20rpx;
+  color: #9988AA;
+}
+.footer{
+  width: 100%;
+  height: 100rpx;
+position: fixed;
+top: 1106rpx;
+display: flex;
+border-top: 1px solid #F5F5DC;
+background-color: white
+}
+.footer1{
+  width: 50%;
+  /* left: left; */
+}
+.footer1 text{
+   position: absolute;
+   top: 55rpx;
+   left: 150rpx;
+   font-size: 24rpx;
+}
+.footer2 text{
+ position: absolute;
+   top: 55rpx;
+   left: 505rpx;
+   font-size: 24rpx;
+}
+.footer2{
+  width: 50%;
+  /* left: left; */  
+}
+/* 底部样式完 */
