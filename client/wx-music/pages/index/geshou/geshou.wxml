@@ -1,0 +1,77 @@
+<!--pages/index/geshou/geshou.wxml-->
+<view class='whole'>
+<!-- 顶部导航开始 -->
+<view class='nav'>
+  <navigator url='tuijian/tuijian' class=''>
+    <text class='nav1'>今日推荐</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>歌手</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>排行榜</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>歌单</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>摇滚</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>民谣</text>
+  </navigator>
+</view>
+<!-- 顶部导航结束 -->
+<!-- 搜索框开始 -->
+<input id='search' placeholder='搜索歌手名'></input>
+<!-- 搜索框结束 -->
+<!-- 歌手照片和名字开始 -->
+<view class='remen'>
+<view class='remen1'><text>热门</text></view>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3481698661,761362810&fm=27&gp=0.jpg'></image><text>周杰伦</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1697228045,2860948544&fm=27&gp=0.jpg'></image><text>林俊杰</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2632141084,3338898098&fm=27&gp=0.jpg'></image><text>陈奕迅</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3672531992,3911202310&fm=27&gp=0.jpg'></image><text>林宥嘉</text></view>
+</navigator>
+</view>
+<!-- AAAAAAA -->
+<view class='remen'>
+<view class='remen1'><text>A</text></view>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2764069632,1422868659&fm=27&gp=0.jpg'></image><text>阿里郎</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2493884662,408702743&fm=27&gp=0.jpg'></image><text>艾薇儿</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3273214520,1016709187&fm=27&gp=0.jpg'></image><text>A -Lin</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2569018661,1769573966&fm=27&gp=0.jpg'></image><text>阿宝</text></view>
+</navigator>
+</view>
+<!-- BBBBBB -->
+<view class='remen'>
+<view class='remen1'><text>B</text></view>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=464941784,510873362&fm=27&gp=0.jpg'></image><text>白举纲</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1598815076,1799957185&fm=58&bpow=485&bpoh=572'></image><text>白雪</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3420054048,2795770106&fm=58&bpow=3840&bpoh=5760'></image><text>白冰</text></view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+<view class='zhoujielun'><image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=936090275,2108044991&fm=27&gp=0.jpg'></image><text>白敬亭</text></view>
+</navigator>
+</view>
+<!-- 歌手照片和名字结束 -->
+</view>

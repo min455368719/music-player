@@ -1,0 +1,85 @@
+/* pages/index/geshou/geshou.wxss */
+text {
+  font-size: 28rpx;
+  color: white;
+}
+.whole{
+  background-color: black;
+}
+/* 导航栏 */
+
+.nav {
+  width: 90%;
+  height: 105rpx;
+  /* background-color: royalblue; *//* display: flex; */
+  margin: 0 auto;
+  /* border-bottom: 1px solid #565656; */
+}
+
+.nav navigator {
+  width: 100rpx;
+  height: 80rpx;
+  display: inline;
+  /* background-color: pink; */
+  margin-right: 54rpx;
+  /* margin-left: 5rpx; */
+  /* margin-bottom: 5rpx; */
+}
+
+.nav navigator text {
+  text-align: center;
+  line-height: 77rpx;
+  font-size: 24rpx;
+  color: white;
+}
+.nav1{
+  margin-left: 24rpx;
+}
+/* 搜索框 */
+#search {
+    width:650rpx;
+    height: 70rpx;
+    padding-left: 40rpx;
+    background-color: white;
+    margin-left: 30rpx;
+    border-radius: 12rpx;
+    margin-bottom: 32rpx;
+}
+/* 歌手详情 */
+.remen{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -10rpx;
+  /* background-color: pink; */
+}
+.remen1{
+  width: 100%;
+  height: 50rpx;
+  background-color:#333333;
+  margin-top: 24rpx;
+}
+.remen1 text{
+  color: #737373;
+  margin-left: 5rpx;
+}
+.zhoujielun{
+  width: 100%;
+  height: 80rpx;
+  position: relative;
+  margin-top: 14rpx;
+}
+.zhoujielun image{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-top: 13rpx;
+  margin-left: 20rpx;
+
+}
+.zhoujielun text{
+  color:#737373;
+  position: absolute;
+  top: 20rpx;
+  margin-left: 30rpx; 
+font-size: 24rpx;
+}

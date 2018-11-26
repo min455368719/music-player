@@ -26,14 +26,14 @@ width: 49%;
 .txt1{
   position: absolute;
   top: 155rpx;
-  left: 131rpx;
+  left: 102rpx;
   color: white;
   font-size: 32rpx;
 }
 .txt2{
 position: absolute;
   top: 200rpx;
-  left: 160rpx;
+  left: 140rpx;
   color: white;
   font-size: 38rpx;
 }
@@ -58,12 +58,18 @@ margin-left: 20rpx;
 .second1{
   width: 100%;
   height: 240rpx;
+}
+.second1 navigator{
+ width: 100%;
+  height: 240rpx; 
+  display: inline;
   display: flex;
 }
-.second1 image{
-  width: 34%;
+.second1  image{
+  width: 100%;
   height: 240rpx;
   /* margin-right: 20rpx; */
+  margin-left: 5rpx;
 }
 .second2 text{
   margin-left: 325rpx;
@@ -86,10 +92,17 @@ margin-left: 20rpx;
   height: 240rpx;
   display: flex;
 }
+.three1 navigator{
+ width: 100%;
+  height: 240rpx; 
+  display: inline;
+  display: flex;
+}
 .three1 image{
-  width: 34%;
+  width: 100%;
   height: 240rpx;
   /* margin-right: 20rpx; */
+   margin-left: 5rpx;
 }
 .three2 text{
   margin-left: 325rpx;
@@ -112,10 +125,17 @@ margin-left: 20rpx;
   height: 240rpx;
   display: flex;
 }
+.four1 navigator{
+ width: 100%;
+  height: 240rpx; 
+  display: inline;
+  display: flex;
+}
 .four1 image{
-  width: 34%;
+  width: 100%;
   height: 240rpx;
   /* margin-right: 20rpx; */
+   margin-left: 5rpx;
 }
 .four2 text{
   margin-left: 325rpx;
@@ -138,9 +158,16 @@ margin-left: 20rpx;
   height: 240rpx;
   display: flex;
 }
+.five1 navigator{
+ width: 100%;
+  height: 240rpx; 
+  display: inline;
+  display: flex;
+}
 .five1 image{
-  width: 34%;
+  width: 100%;
   height: 240rpx;
+   margin-left: 5rpx;
 }
 .five2 text{
   margin-left: 325rpx;
@@ -160,7 +187,7 @@ margin-left: 20rpx;
   margin-top: 28rpx;
 }
 .foot2 {
-  margin-left: 319rpx;
+  margin-left: 329rpx;
   margin-top: 0rpx;
   color: greenyellow;
 }

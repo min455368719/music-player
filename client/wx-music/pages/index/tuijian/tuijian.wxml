@@ -1,0 +1,94 @@
+<!--pages/index/tuijian/tuijian.wxml-->
+<!-- 顶部标题 -->
+<view class='whole'>
+<!-- <image src='../../utils/imgs/tuijian/logo.png'></image>
+<text>知了音乐</text>
+</-- 顶部轮播图开始 -->
+<!-- 顶部导航开始 -->
+<view class='nav'>
+  <navigator url='tuijian/tuijian' class=''>
+    <text class='nav1'>今日推荐</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>歌手</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>排行榜</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>歌单</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>摇滚</text>
+  </navigator>
+  <navigator url='tuijian/tuijian' class=''>
+    <text>民谣</text>
+  </navigator>
+</view>
+<!-- 顶部导航结束 -->
+<view class='lunbo'>
+  <swiper class='turn' indicator-dots="turn" autoplay='turn' interval="3000" indicator-active-color="white">
+    <swiper-item>
+      <image src='http://img4.imgtn.bdimg.com/it/u=2332114563,2859277343&fm=26&gp=0.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://img0.imgtn.bdimg.com/it/u=1164538739,541881301&fm=26&gp=0.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://img4.imgtn.bdimg.com/it/u=1312119169,3496434655&fm=11&gp=0.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://img0.imgtn.bdimg.com/it/u=3545373899,3723268355&fm=26&gp=0.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 轮播图结束 -->
+
+<view class='remengequ'>
+  <text>----热门歌曲推荐----</text>
+</view>
+<!-- 推荐列表 -->
+<navigator url='tuijian/tuijian' class=''>
+  <view class='liebiao'>
+    <image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2175037637,1591009629&fm=26&gp=0.jpg'></image>
+    <text>达人周末</text>
+    <text class='liebiao1' style='color: #565656;'>达人周末|冬日宅家特供惬意音乐</text>
+  </view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+  <view class='liebiao'>
+    <image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2682665336,3417599927&fm=27&gp=0.jpg'></image>
+    <text>环球音乐俱乐部</text>
+    <text class='liebiao1' style='color: #565656;'>环球巨星献唱的2018影视原声</text>
+  </view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+  <view class='liebiao'>
+    <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3267125349,255258351&fm=26&gp=0.jpg'></image>
+    <text>Krystal Lee</text>
+    <text class='liebiao1' style='color: #565656;'>Ambient pop|躺在棉花上遐想无限</text>
+  </view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+  <view class='liebiao'>
+    <image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1811078204,2036452812&fm=26&gp=0.jpg'></image>
+    <text>约翰大叔不约汤欧巴</text>
+    <text class='liebiao1' style='color: #565656;'>亲戚面前露一手|中国分K歌金曲</text>
+  </view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+  <view class='liebiao'>
+    <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2570528486,1370995317&fm=26&gp=0.jpg'></image>
+    <text>胖虎御用铲屎官</text>
+    <text class='liebiao1' style='color: #565656;'>嗨！|我有个恋爱想和你谈</text>
+  </view>
+</navigator>
+<navigator url='tuijian/tuijian' class=''>
+  <view class='liebiao'>
+    <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2930358160,369202581&fm=200&gp=0.jpg'></image>
+    <text>上一刻钟</text>
+    <text class='liebiao1' style='color: #565656;'>欧美清新向|今天也是元气满满的一天</text>
+  </view>
+</navigator>
+</view>
+<!-- 推荐列表完 -->
