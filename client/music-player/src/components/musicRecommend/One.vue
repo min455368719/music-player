@@ -74,7 +74,31 @@
 				<div class="clear"></div>
 			</div>
 			<div class='main1_right'>
-				aside
+				<div class="r-1">喜欢这首歌的人</div>
+				<el-container class="r-2">
+					<a href="#"><img src="../../../build/logo.png" /></a>
+					<a href="#"><img src="../../../build/logo.png" /></a>
+					<a href="#"><img src="../../../build/logo.png" /></a>
+					<a href="#"><img src="../../../build/logo.png" /></a>
+				</el-container>
+				<div class="r-1">包含这首歌的歌单</div>
+				<div class="r-4">
+					<div class="r-4-1"><img src="http://p2.music.126.net/_-SFncN83N46qszXUcTlPA==/109951163559246810.jpg?param=50y50" /></div>
+					<div class="r-4-2">分享生活，再忙也要让自己放松一下</div>
+				</div>
+				<div class="r-4">
+					<div class="r-4-1"><img src="http://p2.music.126.net/_-SFncN83N46qszXUcTlPA==/109951163559246810.jpg?param=50y50" /></div>
+					<div class="r-4-2">分享生活，再忙也要让自己放松一下</div>
+				</div>
+				<div class="r-4">
+					<div class="r-4-1"><img src="http://p2.music.126.net/_-SFncN83N46qszXUcTlPA==/109951163559246810.jpg?param=50y50" /></div>
+					<div class="r-4-2">分享生活，再忙也要让自己放松一下</div>
+				</div>
+				<div class="r-4">
+					<div class="r-4-1"><img src="http://p2.music.126.net/_-SFncN83N46qszXUcTlPA==/109951163559246810.jpg?param=50y50" /></div>
+					<div class="r-4-2">分享生活，再忙也要让自己放松一下</div>
+				</div>
+				<div class="r-1">相似歌曲</div>
 			</div>
 		</el-container>
 	</div>
@@ -110,83 +134,116 @@
 		padding-top: 10px;
 	}
   
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-  
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
-  }
-  .img {
-  	width: 100%;
-  	height: 100%;
-  }
-  
-  .main1 {
-  	width: 1000px;
-  	margin: 20px auto;
-  }
-  .main1_left{
-  	width: 750px;
-  	background-color: white;
-  	border-left: 1px solid darkgray;
-  }
-  .main1_right{
-  	width: 250px;
-  	background-color: aliceblue;
-  	border-left: 1px solid darkgray;
-  	border-right: 1px solid darkgray;
-  }
-  .left_top{
-  	/*background-color: darkcyan;*/
-  	width: 702px;
-  	height: 30px;
-  	margin-top: 20px;
-  	margin-left: 24px;
-  	border-bottom: 2px solid #FF7428;
-  }
-  .inline,li{
-  	display: inline-block;
-  }
-  .circle {
-  	width: 8px;
-	height: 8px;
-	border: 5px solid #FF7428;
-	border-radius: 50%;
-  }
-  .hot {
-  	font-size: 18px;
-  	font-weight: 600;
-  	margin-left: 5px;
-  	margin-right: 20px;
-  	margin-top: 0;
-  	color: gray;
-  }
-  .line{
-  	width: 1px;
-  	height: 12px;
-  	background-color: gray;
-  }
-  li{
-  	color: gray;
-  	font-size: 14px;
-  	margin: 0 5px;
-  }
-  .left_mid{
-
-  }
-  .show {
-  	width: 120px;
-  	height: 170px;
-  	text-align: left;
-  	float: left;
-  	margin: 10px 0 0 24px;
-  }
-  .show img{
-  	width: 120px;
-  	height: 120px;
-  }
-  .show span {
-  	font-size: 14px;
-  }
+	.img {
+		width: 100%;
+	  	height: 100%;
+	}
+	  
+	.main1 {
+	  	width: 1000px;
+	  	margin: 20px auto;
+	}
+	.main1_left{
+	  	width: 750px;
+	  	background-color: white;
+	  	border-left: 1px solid darkgray;
+	}
+	.main1_right{
+	  	width: 250px;
+	  	background-color: white;
+	  	border-left: 1px solid darkgray;
+	  	border-right: 1px solid darkgray;
+	}
+	.left_top{
+	  	/*background-color: darkcyan;*/
+	  	width: 702px;
+	  	height: 30px;
+	  	margin-top: 20px;
+	  	margin-left: 24px;
+	  	border-bottom: 2px solid #FF7428;
+	}
+	.inline,li{
+	  	display: inline-block;
+	}
+	.circle {
+	  	width: 8px;
+		height: 8px;
+		border: 5px solid #FF7428;
+		border-radius: 50%;
+	}
+	.hot {
+	  	font-size: 18px;
+	  	font-weight: 600;
+	  	margin-left: 5px;
+	  	margin-right: 20px;
+	  	margin-top: 0;
+	  	color: gray;
+	}
+	.line{
+	  	width: 1px;
+	  	height: 12px;
+	  	background-color: gray;
+	}
+	li{
+	  	color: gray;
+	  	font-size: 14px;
+	  	margin: 0 5px;
+	}
+	.left_mid{
+	
+	}
+	.show {
+	  	width: 120px;
+	  	height: 170px;
+	  	text-align: left;
+	  	float: left;
+	  	margin: 10px 0 0 24px;
+	}
+	.show img{
+	  	width: 120px;
+	  	height: 120px;
+	}
+	.show span {
+	  	font-size: 14px;
+	}
+	.com-right {
+		width: 300px;
+/*		background-color: yellow;*/
+	}
+	.r-1 {
+		width: 220px;
+		margin: 10px auto;
+		font-size: 14px;
+		color: grey;
+		font-weight: 600;
+		border-bottom: 1px solid #FF7428;
+	}
+	.r-2 {
+		width: 220px;
+		margin: 10px auto;
+	}
+	.r-2 img{
+		width: 40px;
+		height: 40px;
+		margin: 0 7px;
+	}
+	.r-4 {
+		width: 220px;
+		margin: 10px auto;
+	}
+	.r-4-1{
+		display: inline-block;
+		margin: 10px;
+		width: 50px;
+		height: 50px;
+	}.r-4-1 img {
+		width: 50px;
+		height: 50px;
+	}
+	.r-4-2 {
+		display: inline-block;
+		width: 140px;
+		font-size: 14px;
+		color: grey;
+	}
 </style>

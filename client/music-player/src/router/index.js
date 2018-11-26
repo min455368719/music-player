@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import One from '@/components/One'
-import Two from '@/components/Two'
-import Three from '@/components/musicList'
-import Four from '@/components/Four'
-import Player from '@/components/Player'
-
+import One from '@/components/musicRecommend/One'
+import Two from '@/components/ranking/Two'
+import Three from '@/components/musicList/musicList'
+import Four from '@/components/singer/Four'
+import Player from '@/components/showMusic/Player'
+import Songs from '@/components/showList/Songs'
+import login from '@/components/login/login'
+import signUp from '@/components/login/signUp'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +36,21 @@ export default new Router({
       path: '/Player',
       name: 'Player',
       component: Player
+    },
+    {
+      path: '/Songs',
+      name: 'Songs',
+      component: Songs
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: login
+    },
+    {
+      path: '/signUp',
+      name: 'signUp',
+      component: signUp
     }
   ]
 })
