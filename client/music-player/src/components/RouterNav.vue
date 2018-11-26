@@ -4,7 +4,11 @@
 			<router-link to="/One" active-class="first">推荐</router-link>
 		    <router-link to="/Two">排行榜</router-link>
 		    <router-link to="/Three">歌单</router-link>
+<<<<<<< HEAD
 		    <router-link to="/signUp">歌手</router-link>
+=======
+		    <router-link to="/Four">歌手</router-link>
+>>>>>>> 44cee0840c8cfd57961fd134a09cfedba991bea7
 
 		</div>
 		<ul>

@@ -2,7 +2,6 @@
 	<div class="whole">
 		<!-- 左侧用户信息显示模块 -->
 		<div class="left">
-
 			<div class="tuijian">
 				<div class="tuijian1">推荐</div>
 				<div class="tuijian2">
@@ -32,7 +31,6 @@
 					<p><img src="../../../static/img/icon2x/yinle.png" alt=""><span>欧美风</span></p>
 				</div>
 			</div>
-
 		</div>
 		<div class="bofangge">
 			<!-- <audio src="http://music.163.com/song/media/outer/url?id=1311319058.mp3"></audio> -->
@@ -52,78 +50,198 @@
 			<div class="guangfangbang">
 				<span>官方榜</span>
 			</div>
-			<hr style="width: 90%;color: #E1E1E2">
+			<hr>
 			<!-- 飙升榜、原创帮、新歌榜 -->
 			<div class="hang2">
-				<div class="biaoshen">
-					<div><img src="http://img4.imgtn.bdimg.com/it/u=1200630356,3770668614&fm=26&gp=0.jpg" alt=""></div>
-					<ul class="one">
-						<li><span>1</span><span>513%</span><span>写给黄淮</span><a href="">解忧邵帅</a></li>
-						<li><span>2</span><span>354%</span><span>贝贝</span><a href="">李荣浩</a></li>
-						<li><span>3</span><span>196%</span><span>鱼</span><a href="">西瓜JUN</a></li>
-						<li><span>4</span><span>177%</span><span>飞跃巅峰</span><a href="">羽泉</a></li>
-						<li><span>5</span><span>127%</span><span>不想让你走远</span><a href="">赵天宇</a></li>
-						<li><span>6</span><span>76%</span><span>像你想你</span><a href="">毛不易</a></li>
-						<li><span>7</span><span>69%</span><span>可不可以给我你的</span><a href="">Milky</a></li>
-						<li><span>8</span><span>64%</span><span>但爱来临的时候</span><a href="">吴莫愁</a></li>
-						<li><a href="">查看全部>>></a></li>
-					</ul>
-				</div>
-				<div class="xinge">
-					<div><img src="http://img4.imgtn.bdimg.com/it/u=1275562619,3164085747&fm=11&gp=0.jpg" alt=""></div>
-					<ul class="one">
-						<li><span>1</span><span>-</span><span>I.W.A.B.N</span><a href="">Lil小鬼</a></li>
-						<li><span>2</span><span>-</span><span>POP/START</span><a href="">Madison</a></li>
-						<li><span>3</span><span style="color:red">↑</span><span>好喜欢你</span><a href="">王广允</a></li>
-						<li><span>4</span><span style="color:blue">↓</span><span>残缺的彩虹</span><a href="">陈绮贞</a></li>
-						<li><span>5</span><span style="color:green">New</span><span>鱼</span><a href="">西瓜JUN</a></li>
-						<li><span>6</span><span style="color:green">New</span><span>飞跃巅峰</span><a href="">羽泉</a></li>
-						<li><span>7</span><span style="color:blue">↓</span><span>你还在忧愁什么</span><a href="">花粥</a></li>
-						<li><span>8</span><span style="color:blue">↓</span><span>艺术家</span><a href="">徐秉龙</a></li>
-						<li><a href="">查看全部>>></a></li>
-					</ul>
-				</div>
-				<div class="yuanchuan">
-					<div><img src="http://img2.imgtn.bdimg.com/it/u=1992562574,1861731198&fm=15&gp=0.jpg" alt=""></div>
-					<ul class="one">
-						<li><span>1</span><span style="color:green">New</span><span>鹦鹉</span><a href="">孟凡明</a></li>
-						<li><span>2</span><span style="color:green">New</span><span>你还在忧愁什么</span><a href="">花粥</a></li>
-						<li><span>3</span><span style="color:green">New</span><span>爱悟</span><a href="">邵夷贝</a></li>
-						<li><span>4</span><span style="color:green">New</span><span>生于中国</span><a href="">尹吾</a></li>
-						<li><span>5</span><span style="color:green">New</span><span>晚安</span><a href="">留声玩具</a></li>
-						<li><span>6</span><span style="color:green">New</span><span>有话对你说</span><a href="">黄雨篱</a></li>
-						<li><span>7</span><span style="color:green">New</span><span>蝼蚁</span><a href="">岛屿心情</a></li>
-						<li><span>8</span><span style="color:green">New</span><span>说书</span><a href="">朱七</a></li>
-						<li><a href="">查看全部>>></a></li>
-					</ul>
-				</div>
-				<div class="rege">
-					<div><img src="http://img2.imgtn.bdimg.com/it/u=1976977465,2614689071&fm=26&gp=0.jpg" alt=""></div>
-					<ul class="one">
-						<li><span>1</span><span>-</span><span>可不可以</span><a href="">张子豪</a></li>
-						<li><span>2</span><span style="color:red">↑</span><span>盗将行</span><a href="">花粥</a></li>
-						<li><span>3</span><span style="color:red">↑</span><span>年少有为</span></span><a href="">李荣浩</a></li>
-						<li><span>4</span><span style="color:blue">↓</span><span>沙漠骆驼</span><a href="">展展与罗罗</a></li>
-						<li><span>5</span><span style="color:red">↑</span><span>光年之外</span><a href="">邓紫棋</a></li>
-						<li><span>6</span><span style="color:blue">↓</span><span>东西</span><a href="">林俊呈</a></li>
-						<li><span>7</span><span style="color:red">↑</span><span>水星记</span><a href="">郭顶</a></li>
-						<li><span>8</span><span style="color:blue">↓</span><span>Way Back Home</span><a href="">SHAUN</a></li>
-						<li><a href="">查看全部>>></a></li>
-					</ul>
-				</div>
-				<div class="geshou">
-					<div><img src="http://img1.imgtn.bdimg.com/it/u=2678910612,3896613209&fm=26&gp=0.jpg" alt=""></div>
-					<ul class="two">
-						<li><a href="">1</a><a href="">-</a><a href="">花粥</a></li>
-						<li><a href="">2</a><a href="" style="color:red">↑</a><a href="">薛之谦</a></li>
-						<li><a href="">3</a><a href="" style="color:blue">↓</a><a href="">李荣浩</a></li>
-						<li><a href="">4</a><a href="">-</a><a href="">陈粒</a></li>
-						<li><a href="">5</a><a href="">-</a><a href="">邓紫棋</a></li>
-						<li><a href="">6</a><a href="" style="color:red">↑</a><a href="">陈奕迅</a></li>
-						<li><a href="">7</a><a href="" style="color:blue">↓</a><a href="">房顶的猫</a></li>
-						<li><a href="">8</a><a href="" style="color:red">↑</a><a href="">徐秉龙</a></li>
-						<li><a href="" class="chakan">查看全部>>></a></li>
-					</ul>
+				<div class="bang biaoshen">
+					<div><img src="../../../static/img/Two/biaoshen.jpg" alt=""></div>
+					<div class="biaoshen">
+						<ul class="one">
+							<li><span>1</span><span>513%</span><span>写给黄淮</span>
+								<a href="">解忧邵帅</a>
+							</li>
+							<li><span>2</span><span>354%</span><span>贝贝</span>
+								<a href="">李荣浩</a>
+							</li>
+							<li><span>3</span><span>196%</span><span>鱼</span>
+								<a href="">西瓜JUN</a>
+							</li>
+							<li><span>4</span><span>177%</span><span>飞跃巅峰</span>
+								<a href="">羽泉</a>
+							</li>
+							<li><span>5</span><span>127%</span><span>不想让你走远</span>
+								<a href="">赵天宇</a>
+							</li>
+							<li><span>6</span><span>76%</span><span>像你想你</span>
+								<a href="">毛不易</a>
+							</li>
+							<li><span>7</span><span>69%</span><span>可不可以给我你的</span>
+								<a href="">Milky</a>
+							</li>
+							<li><span>8</span><span>64%</span><span>但爱来临的时候</span>
+								<a href="">吴莫愁</a>
+							</li>
+							<li>
+								<a href="">查看全部>>></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bang xinge">
+						<div><img src="../../../static/img/Two/xinge.jpg" alt=""></div>
+						<div class="xinge">
+							<!--<div><img src="http://img4.imgtn.bdimg.com/it/u=1275562619,3164085747&fm=11&gp=0.jpg" alt=""></div>-->
+							<ul class="one">
+								<li><span>1</span><span>-</span><span>I.W.A.B.N</span>
+									<a href="">Lil小鬼</a>
+								</li>
+								<li><span>2</span><span>-</span><span>POP/START</span>
+									<a href="">Madison</a>
+								</li>
+								<li><span>3</span><span style="color:red">↑</span><span>好喜欢你</span>
+									<a href="">王广允</a>
+								</li>
+								<li><span>4</span><span style="color:blue">↓</span><span>残缺的彩虹</span>
+									<a href="">陈绮贞</a>
+								</li>
+								<li><span>5</span><span style="color:green">New</span><span>鱼</span>
+									<a href="">西瓜JUN</a>
+								</li>
+								<li><span>6</span><span style="color:green">New</span><span>飞跃巅峰</span>
+									<a href="">羽泉</a>
+								</li>
+								<li><span>7</span><span style="color:blue">↓</span><span>你还在忧愁什么</span>
+									<a href="">花粥</a>
+								</li>
+								<li><span>8</span><span style="color:blue">↓</span><span>艺术家</span>
+									<a href="">徐秉龙</a>
+								</li>
+								<li>
+									<a href="">查看全部>>></a>
+								</li>
+							</ul>
+						</div>
+						<div class="bang yuanchuan">
+							<div><img src="../../../static/img/Two/yuanchuan.jpg" alt=""></div>
+							<div class="yuanchuan">
+								<!--<div><img src="http://img2.imgtn.bdimg.com/it/u=1992562574,1861731198&fm=15&gp=0.jpg" alt=""></div>-->
+								<ul class="one">
+									<li><span>1</span><span style="color:green">New</span><span>鹦鹉</span>
+										<a href="">孟凡明</a>
+									</li>
+									<li><span>2</span><span style="color:green">New</span><span>你还在忧愁什么</span>
+										<a href="">花粥</a>
+									</li>
+									<li><span>3</span><span style="color:green">New</span><span>爱悟</span>
+										<a href="">邵夷贝</a>
+									</li>
+									<li><span>4</span><span style="color:green">New</span><span>生于中国</span>
+										<a href="">尹吾</a>
+									</li>
+									<li><span>5</span><span style="color:green">New</span><span>晚安</span>
+										<a href="">留声玩具</a>
+									</li>
+									<li><span>6</span><span style="color:green">New</span><span>有话对你说</span>
+										<a href="">黄雨篱</a>
+									</li>
+									<li><span>7</span><span style="color:green">New</span><span>蝼蚁</span>
+										<a href="">岛屿心情</a>
+									</li>
+									<li><span>8</span><span style="color:green">New</span><span>说书</span>
+										<a href="">朱七</a>
+									</li>
+									<li>
+										<a href="">查看全部>>></a>
+									</li>
+								</ul>
+							</div>
+							<div class="bang rege">
+								<div><img src="../../../static/img/Two/rege.jpg" alt=""></div>
+								<div class="rege">
+									<!--<div><img src="http://img2.imgtn.bdimg.com/it/u=1976977465,2614689071&fm=26&gp=0.jpg" alt=""></div>-->
+									<ul class="one">
+										<li><span>1</span><span>-</span><span>可不可以</span>
+											<a href="">张子豪</a>
+										</li>
+										<li><span>2</span><span style="color:red">↑</span><span>盗将行</span>
+											<a href="">花粥</a>
+										</li>
+										<li><span>3</span><span style="color:red">↑</span><span>年少有为</span></span>
+											<a href="">李荣浩</a>
+										</li>
+										<li><span>4</span><span style="color:blue">↓</span><span>沙漠骆驼</span>
+											<a href="">展展与罗罗</a>
+										</li>
+										<li><span>5</span><span style="color:red">↑</span><span>光年之外</span>
+											<a href="">邓紫棋</a>
+										</li>
+										<li><span>6</span><span style="color:blue">↓</span><span>东西</span>
+											<a href="">林俊呈</a>
+										</li>
+										<li><span>7</span><span style="color:red">↑</span><span>水星记</span>
+											<a href="">郭顶</a>
+										</li>
+										<li><span>8</span><span style="color:blue">↓</span><span>Way Back Home</span>
+											<a href="">SHAUN</a>
+										</li>
+										<li>
+											<a href="">查看全部>>></a>
+										</li>
+									</ul>
+								</div>
+								<div class="bang geshou">
+									<div><img src="../../../static/img/Two/geshou.jpg" alt=""></div>
+									<div class="geshou">
+										<!--<div><img src="http://img1.imgtn.bdimg.com/it/u=2678910612,3896613209&fm=26&gp=0.jpg" alt=""></div>-->
+										<ul class="two">
+											<li>
+												<a href="">1</a>
+												<a href="">-</a>
+												<a href="">花粥</a>
+											</li>
+											<li>
+												<a href="">2</a>
+												<a href="" style="color:red">↑</a>
+												<a href="">薛之谦</a>
+											</li>
+											<li>
+												<a href="">3</a>
+												<a href="" style="color:blue">↓</a>
+												<a href="">李荣浩</a>
+											</li>
+											<li>
+												<a href="">4</a>
+												<a href="">-</a>
+												<a href="">陈粒</a>
+											</li>
+											<li>
+												<a href="">5</a>
+												<a href="">-</a>
+												<a href="">邓紫棋</a>
+											</li>
+											<li>
+												<a href="">6</a>
+												<a href="" style="color:red">↑</a>
+												<a href="">陈奕迅</a>
+											</li>
+											<li>
+												<a href="">7</a>
+												<a href="" style="color:blue">↓</a>
+												<a href="">房顶的猫</a>
+											</li>
+											<li>
+												<a href="">8</a>
+												<a href="" style="color:red">↑</a>
+												<a href="">徐秉龙</a>
+											</li>
+											<li>
+												<a href="" class="chakan">查看全部>>></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -142,14 +260,15 @@
 
 <style scoped>
 	.whole {
-		width: 100%;
+		width: 1000px;
 		height: 870px;
+		margin: 0 auto;
 		display: flex;
 	}
 	/* 左侧用户显示模块 */
 	.left {
-		width: 260px;
-		height: 66%;
+		width: 200px;
+		background-color: #F5F5F5;
 		font-size: 14px;
 	}
 	/* 推荐 */
@@ -249,24 +368,27 @@
 		width: 200px;
 		position: absolute;
 		top: 865px;
-		left: 3px
+		left: 175px
 	}
 	/* 右侧所有排行显示 */
 	.right {
-		width: 100%;
-		height: 100%;
+		width: 750px;
+		margin-left: 25px;
+		/*background-color: orangered;*/
 	}
 	/* 第一行官方榜样式 */
 	.guangfangbang {
-		width: 95%;
+		width: 100%;
 		height: 40px;
+		line-height: 48px;
 		margin: 0 auto;
 		position: relative;
+		border-bottom: 3px solid #FF7428;
 	}
 	.guangfangbang span {
-		position: absolute;
-		left: 26px;
-		bottom: 1px
+		font-size: 20px;
+		font-weight: 600;
+		color: #FF7428;
 	}
 	hr:nth-child(1) {
 		width: 95%;
@@ -274,11 +396,14 @@
 	/* 飙升榜、新歌榜、原创榜 */
 	.hang2 {
 		margin: 0 auto;
-		width: 95%;
+		width: 100%;
 		height: 385px;
-		display: flex;
-		flex-wrap: wrap;
 		padding-right: 30px
+	}
+	.bang {
+		float: left;
+		width: 230px;
+		margin: 10px;
 	}
 	/* 公共部分（只是飙升榜、新歌榜、原创榜） */
 	.hang2 ul {
@@ -325,62 +450,53 @@
 		margin-top: -4px
 	}
 	/* 飙升榜 */
-	.biaoshen {
-		width: 322px;
-		height: 100%;
-		margin-left: 40px;
-		position: relative;
-	}
+	/*.biaoshen {
+		width: 230px;
+		margin: 5px;
+	}*/
 	.biaoshen a {
 		position: absolute;
-		right: 10px;
+		right: 709px;
 	}
 	/* 新歌榜 */
-	.xinge {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
-	}
+	/*.xinge {
+		width: 230px;
+		margin: 10px;
+	}*/
 	.xinge a {
 		position: absolute;
-		right: 10px;
+		right: 460px;
 	}
 	/* 原创榜 */
-	.yuanchuan {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
-	}
+	/*.yuanchuan {
+		width: 230px;
+		margin: 10px;
+	}*/
 	.yuanchuan a {
 		position: absolute;
-		right: 10px;
+		right: 208px;
 	}
 	/* 热歌榜 */
-	.rege {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
+	/*.rege {
+		width: 230px;
+		margin: 10px;
 		top: 25px;
 		left: 10px
-	}
+	}*/
 	.rege a {
 		position: absolute;
-		right: 10px;
+		right: 709px;
 	}
 	/* 歌手榜 */
-	.geshou {
-		width: 322px;
-		height: 100%;
-		margin-left: 30px;
-		position: relative;
+	/*.geshou {
+		width: 230px;
+		margin: 10px;
 		top: 25px;
 		left: 10px
-	}
+	}*/
 	.geshou a {
 		text-decoration: none;
+		right: 460px;
 	}
 	.geshou a:nth-child(1) {
 		margin-left: 10px;
