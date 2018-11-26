@@ -1,0 +1,90 @@
+/* pages/index/tuijian/tuijian.wxss */
+text {
+  font-size: 28rpx;
+}
+.whole{
+  background-color: black;
+}
+/* 轮播图 */
+.lunbo image {
+  margin: 0 auto;
+  width: 100%;
+  height: 170px;
+}
+.turn {
+  width: 90%;
+  height: 170px;
+  margin: 0 auto;
+}
+/* 导航栏 */
+
+.nav {
+  width: 90%;
+  height: 80rpx;
+  /* background-color: royalblue; *//* display: flex; */
+  margin: 0 auto;
+  /* border-bottom: 1px solid #565656; */
+}
+
+.nav navigator {
+  width: 100rpx;
+  height: 80rpx;
+  display: inline;
+  /* background-color: pink; */
+  margin-right: 54rpx;
+  /* margin-left: 5rpx; */
+  /* margin-bottom: 5rpx; */
+}
+
+.nav navigator text {
+  text-align: center;
+  line-height: 77rpx;
+  font-size: 24rpx;
+  color: white;
+}
+.nav1{
+  margin-left: 24rpx;
+}
+/* 热门歌曲推荐 */
+
+.remengequ {
+  width: 90%;
+  height: 50rpx;
+  /* background-color: pink; */
+  text-align: center;
+  line-height: 50rpx;
+  padding-bottom: 25rpx;
+  padding-top: 25rpx;
+  color: #ffcd32;
+}
+
+.liebiao {
+  /* background-color: blueviolet; */
+  width: 90%;
+  height: 155rpx;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 1px solid #565656;
+}
+
+.liebiao image {
+  width: 100rpx;
+  height: 55px;
+  margin-top: 18rpx;
+  margin-bottom: 10rpx;
+  margin-left: 3rpx;
+}
+
+.liebiao text {
+  position: relative;
+  top: -68rpx;
+  left: 34rpx;
+  color: white;
+}
+.liebiao1 {
+  display: block;
+  margin-left: 102rpx;
+  color: #565656;
+  margin-top: 5rpx;
+  font-size: 24rpx;
+}
