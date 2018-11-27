@@ -34,7 +34,7 @@ export default new Router({
       component: Four
     },
     {
-      path: '/Player',
+      path: '/Three/:id/:id',
       name: 'Player',
       component: Player
     },

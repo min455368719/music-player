@@ -6,7 +6,8 @@
 				<div class="title">
 					<div class="left">
 						<h3>全部</h3>
-						<button>选择分类&nbsp;&nbsp;&nbsp;<span></span></button>
+						<!--<button>选择分类<span>e</span></button>-->
+						<el-button size="mini" type="info">选择分类<i class="el-icon-arrow-down"></i></el-button>
 					</div>
 					<div class="right">
 						<button class="active">热门</button>

@@ -1,33 +1,13 @@
 <template>
 	<div>
-		<el-container class="com-show">
+		<el-container class="com-show"  v-for="item in commentInfo" :key="item.c_id">
 			<div class="comImg">
-				<img src="../../assets/logo.png" />
+				<img :src="item.c_p_img " />
 			</div>
 			<div class="com-main">
-				<p class="con-p">嘉州微雨:</p>
-				<span>谢谢大家的支持也谢谢网易云给的自媒体让我可以和大家交流音乐</span>
-				<p class="com-time">2018年10月16日</p>
-			</div>
-		</el-container>
-		<el-container class="com-show">
-			<div class="comImg">
-				<img src="../../assets/logo.png" />
-			</div>
-			<div class="com-main">
-				<p class="con-p">嘉州微雨:</p>
-				<span>谢谢大也谢谢网易云给的自媒体家的支持也谢也谢谢网易云给的自媒体谢网易云给的自媒体让我可以和大家交流音乐</span>
-				<p class="com-time">2018年10月16日</p>
-			</div>
-		</el-container>
-		<el-container class="com-show">
-			<div class="comImg">
-				<img src="../../assets/logo.png" />
-			</div>
-			<div class="com-main">
-				<p class="con-p">嘉州微雨:</p>
-				<span>谢谢大家的支持也谢谢网易云给的自媒体让我可以也谢谢网也谢谢网易云给也谢谢网易云给的自媒体的自媒体易云给的自媒体和大家交流音乐</span>
-				<p class="com-time">2018年10月16日</p>
+				<p class="con-p">{{ item.c_people }}:</p>
+				<span>{{ item.com }}</span>
+				<p class="com-time">{{ item.c_time }}</p>
 			</div>
 		</el-container>
 	</div>
@@ -35,13 +15,36 @@
 
 <script>
 	export default {
-		name: 'ComeShow'
+		name: 'ComeShow',
+		data(){
+			return {
+				commentInfo:[{}]
+			}
+		},
+		methods: {
+			getComment(){
+				let _this = this;
+				
+				_this.$http
+					.get("/getComment",{params: {id:_this.$route.params.id}})
+					.then(function(res){
+						console.log(res);
+						_this.commentInfo = res.data;
+					})
+					.catch(function(err){
+						console.log(err);
+					})
+			}
+		},
+		mounted(){
+			this.getComment();
+		}
 	}
 </script>
 
 <style scoped>
 	.com-show{
-		height: 130px;
+		min-height: 130px;
 		/*background-color: yellow;*/
 		border-bottom: 1px dotted gray;
 	}

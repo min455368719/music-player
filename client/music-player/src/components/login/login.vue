@@ -4,7 +4,6 @@
         <div class="whole">
             <!-- 左侧用户信息显示模块 -->
             <div class="left">
-                
                 <div class="tuijian">
                     <div class="tuijian1">推荐</div>
                     <div class="tuijian2">
@@ -27,32 +26,18 @@
                         <a href=""><img src="../../../static/img/icon2x/shoucang.png" alt=""><span>我喜欢的音乐</span></a>
                     </div>
                 </div>
-
             </div>
-            <!-- <div class="bofangge"> -->
-
-            <!-- <audio src="http://music.163.com/song/media/outer/url?id=1311319058.mp3"></audio> -->
-            <!-- <audio controls>
-                <source src="http://music.163.com/song/media/outer/url?id=1311319058.mp3" type="audio/mpeg">
-                </source>
-                <source src="http://music.163.com/song/media/outer/url?id=1311319058.ogg" type="audio/ogg">
-                </source>
-                <source src="http://music.163.com/song/media/outer/url?id=1311319058.wav" type="audio/wav">
-                </source>
-                您的浏览器不支持 HTML5 audio 标签。
-            </audio>
-        </div> -->
     <!-- 右侧登录信息 -->
             <div class="right">
                 <div class="juzhong">
                     <a href="" class="pic1"><img src="../../../static/img/login/touxiang.jpg" alt=""></a>
                     <div class="input1">
-                        <el-input v-model="input7" placeholder="请输入账号">
+                        <el-input placeholder="请输入账号">
                             <template slot="prepend">账号</template>
                         </el-input>
                     </div>
                     <div class="input1">
-                        <el-input v-model="input" placeholder="请输入密码">
+                        <el-input placeholder="请输入密码">
                             <template slot="prepend">密码</template>
                         </el-input>
                     </div>
@@ -80,9 +65,7 @@
 
 <style scoped>
     .boby {
-        /* background-image: url("../../../static/img/login/beijing.jpg"); */
-        /* background-repeat:no-repeat; */
-        /* filter: blur(8px); */
+        overflow: hidden;
     }
 
     .bg {
@@ -93,7 +76,6 @@
     }
 
     .bg-blur {
-        float: left;
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -111,8 +93,8 @@
         display: flex;
         z-index: 9999;
         position: absolute;
-        top:162px;
-        left: 286px;
+        top:152px;
+        left: 146px;
     }
     /* 左侧用户显示模块 */
     .left {

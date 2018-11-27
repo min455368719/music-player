@@ -5,7 +5,6 @@
 		    <router-link to="/Two">排行榜</router-link>
 		    <router-link to="/Three">歌单</router-link>
 		    <router-link to="/Four">歌手</router-link>
-
 		</div>
 		<ul>
 			<li><img src="../../static/img/icon1/xingxing1.png" /></li>

@@ -48,7 +48,7 @@
 	}
 	.foot ul{
 		width: 1200px;
-		margin: 10px auto;
+		margin: 0 auto;
 		text-align: center;
 	}
 	.foot ul li {
