@@ -387,7 +387,7 @@
 		width: 200px;
 		position: absolute;
 		top: 865px;
-		left: 153px
+		left: 175px
 	}
 
 	/* 右侧所有排行显示 */
