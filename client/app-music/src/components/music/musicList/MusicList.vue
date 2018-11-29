@@ -25,35 +25,35 @@
 		<div class="flex-container">
 			<div class="flex-item">
 				<img src="http://p2.music.126.net/xg2qZxvmBHMxhQGSqcGECA==/109951162926819496.jpg?param=140y140" />
-				<p>80年代的都是故事8</p>
+				<p>80年代的都是故事</p>
 			</div>
 			<div class="flex-item">
 				<img src="http://p2.music.126.net/HFqBUprzY6wuGim2fukkfA==/109951163691214713.jpg?param=140y140" />
-				<p>80年代的都是故事</p>
+				<p>欧美金曲|曲懂人生</p>
 			</div>
 			<div class="flex-item">
 				<img src="http://p2.music.126.net/W2_nKm2SvDk30Ts4mXI_UQ==/109951163680562756.jpg?param=140y140" />
-				<p>80年代的都是故事</p>
+				<p>情话不一定要撕心裂肺</p>
 			</div>
 			<div class="flex-item">
 				<img src="http://p2.music.126.net/8EyJXw1KbF-XR3c5MURmJg==/109951163667345907.jpg?param=140y140" />
-				<p>80年代的都是故事</p>
+				<p>愉悦的心情，因为有愉悦的歌</p>
 			</div>
 			<div class="flex-item">
 				<img src="http://p2.music.126.net/5c38KSGwGgcrDS9qjfPhOw==/109951163526345568.jpg?param=140y140" />
 				<p>80年代的都是故事</p>
 			</div>
 			<div class="flex-item">
-				<img src="http://p2.music.126.net/GSIN5vC5J0qgYrdi11SiNg==/19095218440287759.jpg?param=140y140" />
-				<p>80年代的都是故事</p>
+				<img src="http://p2.music.126.net/02yE4OCM9GSHB_Ag6aMfEg==/109951163650431588.jpg?param=140y140" />
+				<p>想对暗恋的人说的第一句</p>
 			</div>
 			<div class="flex-item">
-				<img src="http://p2.music.126.net/5c38KSGwGgcrDS9qjfPhOw==/109951163526345568.jpg?param=140y140" />
-				<p>80年代的都是故事</p>
+				<img src="http://p2.music.126.net/Cl0-NpZ0ESTDjJ1HmZ33KA==/109951163460576279.jpg?param=140y140" />
+				<p>华语民谣，懂得才有共鸣</p>
 			</div>
 			<div class="flex-item">
-				<img src="http://p2.music.126.net/GSIN5vC5J0qgYrdi11SiNg==/19095218440287759.jpg?param=140y140" />
-				<p>80年代的都是故事</p>
+				<img src="http://p4.music.126.net/GSIN5vC5J0qgYrdi11SiNg==/19095218440287759.jpg?param=200y200" />
+				<p>我不缺朋友，我缺你</p>
 			</div>
 		</div>
 	</div>
