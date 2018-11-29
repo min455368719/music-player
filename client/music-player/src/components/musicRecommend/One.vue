@@ -170,7 +170,7 @@
 	}
 	.show {
 	  	width: 120px;
-	  	height: 170px;
+	  	min-height: 170px;
 	  	text-align: left;
 	  	float: left;
 	  	margin: 10px 0 0 24px;
@@ -184,7 +184,7 @@
 		width: 100%;
 		height: 45px;
 		overflow: hidden;
-	  	font-size: 14px;
+	  	font-size: 12px;
 	}
 	.com-right {
 		width: 300px;

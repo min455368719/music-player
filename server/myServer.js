@@ -92,24 +92,19 @@ app.get('/getComment', function(req, res) {
 app.get('/validate',function(req,res){
 	//接收get过来的值
 	let userName=req.query.user;
-
 	let sql = "SELECT * FROM users WHERE u_name='"+userName+"'";
 	connection.query(sql, (err,results)=>{
 		res.json(results);
 	});
 })
 app.get('/enter',function(req,res){
-	if(req.cookie.isVisit){
-		console.log("0000");
-	}else{
-		//接收get过来的值
-		let uname=req.query.userN;
-		let upwd=req.query.userP;
-		let sql = "SELECT * FROM users WHERE u_name='"+uname+"' and u_pwd='"+upwd+"'";
-		connection.query(sql, (err,results)=>{
-			res.json(results);
-		});
-	}
+	//接收get过来的值
+	let uname=req.query.userN;
+	let upwd=req.query.userP;
+	let sql = "SELECT * FROM users WHERE u_name='"+uname+"' and u_pwd='"+upwd+"'";
+	connection.query(sql, (err,results)=>{
+		res.json(results);
+	});
 })
 
 app.listen(8998);

@@ -280,8 +280,8 @@
 		height: 300px;
 		background-color: #fcfcfc;
 		position: absolute;
-		top: 198px;
-		left: 216px;
+		top: 196px;
+		left: 156px;
 		box-shadow: 2px 2px 5px #888888;
 	}
 	.all {
