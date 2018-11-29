@@ -91,7 +91,7 @@
 				
 				<!-- 歌单 -->
 				<div class="list">
-					<div class="list-box" v-for="item in musicInfor" :key="item.id">
+					<div class="list-box" v-for="item in list" :key="item.id">
 						<img :src="item.ImgUrl" alt="加载失败">
 						<p><a href="#">{{item.musicDcp}}</a></p>
 						<p><a href="#">{{item.author}}</a></p>
@@ -191,7 +191,8 @@
 				_this.$http
 				  .get(getUrl,{params: {Title: title}})
 				  .then(function(res){
-				  	console.log(res);
+					  console.log(res);
+					  console.log(res.data)
 				  	_this.list = res.data;
 				  })
 				  .catch(function(err){
@@ -201,6 +202,7 @@
 		},
 		mounted() {
 			this.ajaxGet("/musicForm","all");
+
 		}
 	}
 </script>
