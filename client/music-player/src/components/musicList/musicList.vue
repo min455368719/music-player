@@ -7,7 +7,7 @@
 					<div class="left">
 						<h3>全部</h3>
 						<!--<button>选择分类<span>e</span></button>-->
-						<el-button size="mini" type="info" v-on:click="show">选择分类<i class="el-icon-arrow-down"></i></el-button>
+						<el-button @click="show" size="mini" type="info">选择分类<i class="el-icon-arrow-down"></i></el-button>
 					</div>
 					<div class="right">
 						<button class="active">热门</button>
@@ -91,10 +91,12 @@
 				
 				<!-- 歌单 -->
 				<div class="list">
-					<div class="list-box" v-for="item in list" :key="item.id">
-						<img :src="item.ImgUrl" alt="加载失败">
-						<p><a href="#">{{item.musicDcp}}</a></p>
-						<p><a href="#">{{item.author}}</a></p>
+					<div class="list-left">
+						<div class="list-box" v-for="item in list" :key="item.f_id">
+							<img :src="item.f_cover" alt="加载失败">
+							<router-link :to="'/Three/'+item.f_id">{{ item.f_name }}</router-link>
+							<span>{{ item.f_publisher }}</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -132,40 +134,10 @@
 </template>
 
 <script>
-// export default {
-//   name: "Three",
-//   data() {
-//     return {
-//       musicInfor: [
-//         {
-//           id: 1,
-//           ImgUrl:
-//             "https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200",
-//           musicDcp: "歌单信息",
-//           author: "作者"
-//         },
-//         {
-//           id: 2,
-//           ImgUrl:
-//             "https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200",
-//           musicDcp: "歌单信息",
-//           author: "作者"
-//         }
-//       ],
-//     isTrue: false
-//     } 
-//   },
-//   methods: {
-//     show: function(){
-//       this.isTrue = !this.isTrue;
-//     },
 
-//   }
-// }
-
-	// var imgUrl = ["https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200"];
-	// var musicInfor = ['歌单信息'];
-	// var author = ['作者'];
+	var imgUrl = ["https://p3.music.126.net/9dLJ3rPpz3lobPjdpNKcRw==/109951163667817809.jpg?param=200y200"];
+	var musicInfor = ['歌单信息'];
+	var author = ['作者'];
 	export default {
 		name: 'Three',
 		data() {
@@ -191,8 +163,7 @@
 				_this.$http
 				  .get(getUrl,{params: {Title: title}})
 				  .then(function(res){
-					  console.log(res);
-					  console.log(res.data)
+				  	console.log(res);
 				  	_this.list = res.data;
 				  })
 				  .catch(function(err){
@@ -202,7 +173,6 @@
 		},
 		mounted() {
 			this.ajaxGet("/musicForm","all");
-
 		}
 	}
 </script>
