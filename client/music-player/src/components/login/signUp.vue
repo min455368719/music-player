@@ -89,6 +89,10 @@
 </script>
 
 <style scoped>
+	.boby {
+        overflow: hidden;
+    }
+    
     .bg {
         background: url('../../../static/img/login/beijing.jpg');
         height: 404px;
@@ -113,8 +117,8 @@
         display: flex;
         z-index: 9999;
         position: absolute;
-        top: 162px;
-        left: 286px;
+        top: 152px;
+        left: 146px;
     }
 
     /* 左侧用户显示模块 */

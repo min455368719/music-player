@@ -19,7 +19,7 @@
 		</ul>
 		<div class="inline LR">
 			<el-button class='login' size='small' href="/login"><router-link to="/login">登录</router-link></el-button>
-			<el-button size='small'>注册</el-button>
+			<el-button class='login' size='small' href="/login"><router-link to="/signUp">注册</router-link></el-button>
 		</div>
 	</div>
 </template>
@@ -75,7 +75,12 @@
 		width: 1px;
 		height: 14px;
 		background-color: white;
-	}.login{
+	}
+	.login{
+		color: #FF7428;
+	}
+	.login a{
+		text-decoration: none;
 		color: #FF7428;
 	}
 </style>

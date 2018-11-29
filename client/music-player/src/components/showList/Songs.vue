@@ -15,7 +15,7 @@
 						<div class="lr-2">
 							<img src="http://p1.music.126.net/JVWb-Ist5KowjAAa7GpHqA==/109951163530949475.jpg?param=40y40" />
 							<span>{{ list[0].f_publisher }}</span>
-							<span>{{ list[0].release_time }}创建</span>
+							<span>{{ time }}创建</span>
 						</div>
 						<div class="lr-3">
 							<el-button-group>
@@ -34,15 +34,15 @@
 							
 						</div>
 						<div class="clear"></div>
-						<div class="lr-5">
+						<div class="lr-5" :class="{classA:isA}">
 							<span>{{ list[0].f_describe }}</span>
 						</div>
 						
-						<div class="lr-6"><a href="#">展开</a><i class="el-icon-arrow-down"></i></div>
+						<div class="lr-6"><a @click="showMore">展开</a><span v-html="arrow"></span></div>
 					</div>
 					<div class="clear"></div>
 					
-					<MusicName></MusicName>
+					<MusicName :play_num="list[0].f_play_num"></MusicName>
 				</div>
 			</div>
 			<div class='main1_right'>
@@ -83,17 +83,24 @@
 		name: 'Songs',
 		data(){
 			return {
-				list:[{}]
+				list:[{}],
+				time:'',
+				arrow: '<i class="el-icon-arrow-down"></i>',
+				isA: true
 			}
 		},
 		components:{
 			MusicName:MusicName
 		},
+		watch:{
+			time:function(){
+				let _this = this;
+				_this.time=_this.timeFormat(_this.list[0].release_time,'yyyy-MM-dd');	
+			}
+		},
 		mounted() {
 			let _this = this;
-//	    	console.log(_this.$route.query);  
-//	    	console.log(_this.$route.params); 
-	    	_this.getFormInfo(_this.$route.params.id);	
+	    	_this.getFormInfo();	
 		},
 		methods: {
 			getFormInfo(){
@@ -103,10 +110,46 @@
 			  		.then(function(res){
 			  			console.log(res);
 			  		_this.list = res.data;
+			  		_this.time=_this.list[0].release_time;
 			    	})
 			  		.catch(function(err){
 					  	console.log(err);
 					});
+			},
+			timeFormat(time, timeDemo){
+				let t = new Date(time);
+		        let tf = function(i){return (i < 10 ? '0' : '') + i};
+		        return timeDemo.replace(/yyyy|MM|dd|HH|mm|ss/g, function(a){
+		            switch(a){
+		                case 'yyyy':
+		                return tf(t.getFullYear());
+		                break;
+		                case 'MM':
+		                return tf(t.getMonth() + 1);
+		                break;
+		                case 'mm':
+		                return tf(t.getMinutes());
+		                break;
+		                case 'dd':
+		                return tf(t.getDate());
+		                break;
+		                case 'HH':
+		                return tf(t.getHours());
+		                break;
+		                case 'ss':
+		                return tf(t.getSeconds());
+		                break;
+		            }
+		        })
+			},
+			showMore(){
+				if(this.arrow=='<i class="el-icon-arrow-up"></i>'){
+					this.arrow='<i class="el-icon-arrow-down"></i>';
+					this.isA=true;
+				}else{
+					this.arrow='<i class="el-icon-arrow-up"></i>';
+					this.isA=false;
+				}
 			}
 		}
     }
@@ -224,19 +267,26 @@
 	}
 	.lr-5 {
 		width: 480px;
-		height: 80px;
+		min-height: 80px;
 		font-size: 14px;
 		line-height: 25px;
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 3;
 		overflow: hidden;
+	}
+	.classA {
+		-webkit-line-clamp: 3;
 	}
 	.lr-6 {
 		width: 50px;
 		height: 25px;
 		margin-left: 430px;
 		/*background-color: yellowgreen;*/
+	}
+	.lr-6 a {
+		font-size: 14px;
+		color: #FF7428;
+		cursor: pointer;
 	}
 	.main1_right{
 	  	width: 250px;
