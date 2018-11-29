@@ -28,47 +28,10 @@
 				<div class="clear"></div>
 				<div class="left_mid">
 					<div class="clear"></div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
+					<div class="show" v-for="item in list" :key="item.f_id">
+						<img :src="item.f_cover"/>
+						<span>{{ item.f_name }}</span>
 					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-					<div class="show">
-						<img src="http://p3.music.126.net/vQgO6_02XH1kb45zfyrq4w==/109951163663964021.jpg?param=200y200"/>
-						<span>关于孤独 它可以有100种讲述方式</span>
-					</div>
-	
 					<div class="clear"></div>
 				</div>
 				<div class="clear"></div>
@@ -113,8 +76,21 @@
 		name: 'One',
 		data(){
 			return {
-				msg:[imgUrl1,imgUrl2,imgUrl3,imgUrl4]
+				msg:[imgUrl1,imgUrl2,imgUrl3,imgUrl4],
+				list:[{}]
 			}
+		},
+		mounted(){
+			let _this=this;
+			_this.$http
+				.get("/recom")
+				.then(function(res){
+					console.log(res);
+					_this.list=res.data;
+				})
+				.catch(function(err){
+					console.log(err);
+				})
 		}
 	}
 </script>
@@ -204,6 +180,10 @@
 	  	height: 120px;
 	}
 	.show span {
+		display: block;
+		width: 100%;
+		height: 45px;
+		overflow: hidden;
 	  	font-size: 14px;
 	}
 	.com-right {

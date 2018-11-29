@@ -21,6 +21,17 @@
 				commentInfo:[{}]
 			}
 		},
+		watch:{
+			commentInfo:function(){
+				let _this = this;
+				console.log(_this.commentInfo.length);
+				let len=_this.commentInfo.length;
+				for(let i=0;i<_this.commentInfo.length;i++){
+					_this.commentInfo[i].c_time=_this.timeFormat(_this.commentInfo[i].c_time,'yyyy-MM-dd HH:mm:ss');	
+					console.log("========="+_this.commentInfo[i].c_time);
+				}
+			}
+		},
 		methods: {
 			getComment(){
 				let _this = this;
@@ -34,6 +45,32 @@
 					.catch(function(err){
 						console.log(err);
 					})
+			},
+			timeFormat(time, timeDemo){
+				let t = new Date(time);
+		        let tf = function(i){return (i < 10 ? '0' : '') + i};
+		        return timeDemo.replace(/yyyy|MM|dd|HH|mm|ss/g, function(a){
+		            switch(a){
+		                case 'yyyy':
+		                return tf(t.getFullYear());
+		                break;
+		                case 'MM':
+		                return tf(t.getMonth() + 1);
+		                break;
+		                case 'mm':
+		                return tf(t.getMinutes());
+		                break;
+		                case 'dd':
+		                return tf(t.getDate());
+		                break;
+		                case 'HH':
+		                return tf(t.getHours());
+		                break;
+		                case 'ss':
+		                return tf(t.getSeconds());
+		                break;
+		            }
+		        })
 			}
 		},
 		mounted(){
